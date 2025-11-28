@@ -1,0 +1,3583 @@
+[00:00:01.305] Server  LOG      ✓ Ready in 930ms
+[00:00:07.160] Server  LOG      ○ Compiling / ...
+[00:00:08.201] Server  ERROR   C:\Users\HP\Desktop\Project\real-estate-app\.next\dev\server\chunks\ssr\[root-of-the-server]__8307e314._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:08.204] Server  ERROR    ⨯ ReferenceError: Plus is not defined
+[00:00:08.870] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:08.870] Browser ERROR   uncaughtError: ReferenceError: Plus is not defined
+[00:00:51.736] Server  LOG      ✓ Compiled in 288ms
+[00:34:41.617] Server  LOG      ✓ Compiled in 862ms
+[00:13:12.537] Server  LOG      ✓ Compiled in 908ms
+[01:23:14.159] Server  LOG      ✓ Compiled in 1372ms
+[00:00:52.917] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:57.154] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:32.861] Server  LOG      ✓ Compiled in 96ms
+[00:36:02.139] Server  LOG      ✓ Compiled in 96ms
+[01:24:34.368] Server  LOG      ✓ Compiled in 97ms
+[00:02:17.355] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:18.522] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:33.229] Server  LOG      ✓ Compiled in 68ms
+[00:37:02.536] Server  LOG      ✓ Compiled in 97ms
+[01:25:34.606] Server  LOG      ✓ Compiled in 132ms
+[00:03:17.674] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:44.475] Server  LOG      ✓ Compiled in 61ms
+[00:38:13.756] Server  LOG      ✓ Compiled in 59ms
+[01:26:45.788] Server  LOG      ✓ Compiled in 62ms
+[00:39:32.823] Server  LOG      ✓ Compiled in 52ms
+[01:28:04.866] Server  LOG      ✓ Compiled in 63ms
+[00:18:03.544] Server  LOG      ✓ Compiled in 58ms
+[00:05:48.376] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:23.942] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:29:10.890] Server  LOG      ✓ Compiled in 64ms
+[00:40:38.857] Server  LOG      ✓ Compiled in 63ms
+[00:19:09.578] Server  LOG      ✓ Compiled in 66ms
+[00:19:58.501] Server  LOG      ✓ Compiled in 55ms
+[01:29:59.834] Server  LOG      ✓ Compiled in 74ms
+[00:41:27.800] Server  LOG      ✓ Compiled in 72ms
+[00:07:43.261] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:52.865] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:41:09.394] Server  LOG      ✓ Compiled in 77ms
+[00:52:37.361] Server  LOG      ✓ Compiled in 97ms
+[00:31:08.083] Server  LOG      ✓ Compiled in 80ms
+[00:18:48.043] Server  LOG      ✓ Compiled in 81ms
+[00:18:54.260] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:31:48.588] Server  LOG      ✓ Compiled in 76ms
+[00:53:17.901] Server  LOG      ✓ Compiled in 121ms
+[01:41:49.934] Server  LOG      ✓ Compiled in 122ms
+[00:19:34.229] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:44.936] Server  LOG      ✓ Compiled in 98ms
+[00:54:14.215] Server  LOG      ✓ Compiled in 102ms
+[01:42:46.286] Server  LOG      ✓ Compiled in 132ms
+[00:20:31.112] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:33:40.126] Server  LOG      ✓ Compiled in 91ms
+[01:43:41.456] Server  LOG      ✓ Compiled in 103ms
+[00:55:09.437] Server  LOG      ✓ Compiled in 110ms
+[01:44:11.861] Server  LOG      ✓ Compiled in 97ms
+[00:34:10.535] Server  LOG      ✓ Compiled in 78ms
+[00:55:39.845] Server  LOG      ✓ Compiled in 108ms
+[00:22:00.497] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:44:42.965] Server  LOG      ✓ Compiled in 49ms
+[00:56:10.931] Server  LOG      ✓ Compiled in 50ms
+[00:34:41.653] Server  LOG      ✓ Compiled in 48ms
+[00:22:27.705] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:36:20.811] Server  LOG      ✓ Compiled in 94ms
+[01:46:22.123] Server  LOG      ✓ Compiled in 81ms
+[00:57:50.106] Server  LOG      ✓ Compiled in 102ms
+[00:24:07.774] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:59:24.253] Server  LOG      ✓ Compiled in 71ms
+[00:37:54.994] Server  LOG      ✓ Compiled in 91ms
+[01:47:56.315] Server  LOG      ✓ Compiled in 97ms
+[01:48:35.908] Server  LOG      ✓ Compiled in 43ms
+[01:00:03.875] Server  LOG      ✓ Compiled in 36ms
+[00:38:34.614] Server  LOG      ✓ Compiled in 60ms
+[01:49:59.044] Server  LOG      ✓ Compiled in 67ms
+[00:39:57.747] Server  LOG      ✓ Compiled in 83ms
+[01:01:27.047] Server  LOG      ✓ Compiled in 98ms
+[01:01:43.206] Server  LOG      ✓ Compiled in 81ms
+[00:40:13.927] Server  LOG      ✓ Compiled in 72ms
+[01:50:15.268] Server  LOG      ✓ Compiled in 107ms
+[00:28:00.368] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:44:23.583] Server  LOG      ✓ Compiled in 1749ms
+[01:54:24.932] Server  LOG      ✓ Compiled in 1774ms
+[00:32:03.699] Server  LOG      ✓ Compiled in 1875ms
+[01:05:53.128] Server  LOG      ✓ Compiled in 2s
+[00:32:58.483] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:33:00.742] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:41:59.738] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:10:15
+Parsing ecmascript source code failed
+   8 | function Header() {
+   9 |     const  path=usePathname();
+> 10 |     useEffect(()={
+     |               ^^
+  11 |         
+  12 |     })
+  13 |   return (
+
+Parenthesized expression cannot be empty
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+[00:54:55.612] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React,{ useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:54:55.622] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React,{ useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:24.918] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React,{ useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:24.928] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React,{ useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:24.937] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React,{ useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:24.940] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React,{ useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:04:56.961] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React,{ useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:04:56.966] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React,{ useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:42:35.592] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React,{ useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:42:35.608] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React,{ useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:42:35.612] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React,{ useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:42:35.617] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React,{ useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:42:35.625] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React,{ useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:42:35.632] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React,{ useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:42:35.648] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React,{ useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:42:35.651] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React,{ useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:42:35.656] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React,{ useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:42:35.659] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React,{ useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:42:35.662] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React,{ useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:42:35.664] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React,{ useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:42:35.668] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React,{ useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:42:35.670] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React,{ useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:42:35.955] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:16
+Ecmascript file had an error
+  4 | import Link from 'next/link'
+  5 | import { usePathname } from 'next/navogation'
+> 6 | import React,{ useEffect} from 'react'
+    |                ^^^^^^^^^
+  7 |
+  8 | function Header() {
+  9 |     const  path=usePathname();
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+[00:42:35.955] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:8
+Ecmascript file had an error
+  4 | import Link from 'next/link'
+  5 | import { usePathname } from 'next/navogation'
+> 6 | import React,{ useEffect} from 'react'
+    |        ^^^^^
+  7 |
+  8 | function Header() {
+  9 |     const  path=usePathname();
+
+the name `React` is defined multiple times
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+[00:42:35.955] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React,{ useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:42:42.327] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:16
+Ecmascript file had an error
+  4 | import Link from 'next/link'
+  5 | import { usePathname } from 'next/navogation'
+> 6 | import React,{ useEffect} from 'react'
+    |                ^^^^^^^^^
+  7 |
+  8 | function Header() {
+  9 |     const  path=usePathname();
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+
+
+./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:8
+Ecmascript file had an error
+  4 | import Link from 'next/link'
+  5 | import { usePathname } from 'next/navogation'
+> 6 | import React,{ useEffect} from 'react'
+    |        ^^^^^
+  7 |
+  8 | function Header() {
+  9 |     const  path=usePathname();
+
+the name `React` is defined multiple times
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+
+
+./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React,{ useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:42:42.457] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:16
+Ecmascript file had an error
+  4 | import Link from 'next/link'
+  5 | import { usePathname } from 'next/navogation'
+> 6 | import React,{ useEffect} from 'react'
+    |                ^^^^^^^^^
+  7 |
+  8 | function Header() {
+  9 |     const  path=usePathname();
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+[00:42:42.457] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:8
+Ecmascript file had an error
+  4 | import Link from 'next/link'
+  5 | import { usePathname } from 'next/navogation'
+> 6 | import React,{ useEffect} from 'react'
+    |        ^^^^^
+  7 |
+  8 | function Header() {
+  9 |     const  path=usePathname();
+
+the name `React` is defined multiple times
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+[00:42:42.457] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React,{ useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:42:43.210] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:16
+Ecmascript file had an error
+  4 | import Link from 'next/link'
+  5 | import { usePathname } from 'next/navogation'
+> 6 | import React,{ useEffect} from 'react'
+    |                ^^^^^^^^^
+  7 |
+  8 | function Header() {
+  9 |     const  path=usePathname();
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+[00:42:43.211] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:8
+Ecmascript file had an error
+  4 | import Link from 'next/link'
+  5 | import { usePathname } from 'next/navogation'
+> 6 | import React,{ useEffect} from 'react'
+    |        ^^^^^
+  7 |
+  8 | function Header() {
+  9 |     const  path=usePathname();
+
+the name `React` is defined multiple times
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+[00:42:43.211] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React,{ useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:42:43.211] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:16
+Ecmascript file had an error
+  4 | import Link from 'next/link'
+  5 | import { usePathname } from 'next/navogation'
+> 6 | import React,{ useEffect} from 'react'
+    |                ^^^^^^^^^
+  7 |
+  8 | function Header() {
+  9 |     const  path=usePathname();
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+[00:42:43.211] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:8
+Ecmascript file had an error
+  4 | import Link from 'next/link'
+  5 | import { usePathname } from 'next/navogation'
+> 6 | import React,{ useEffect} from 'react'
+    |        ^^^^^
+  7 |
+  8 | function Header() {
+  9 |     const  path=usePathname();
+
+the name `React` is defined multiple times
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+[00:42:43.211] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React,{ useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:42:43.946] Browser ERROR   uncaughtError: Error: ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:16
+Ecmascript file had an error
+  4 | import Link from 'next/link'
+  5 | import { usePathname } from 'next/navogation'
+> 6 | import React,{ useEffect} from 'react'
+    |                ^^^^^^^^^
+  7 |
+  8 | function Header() {
+  9 |     const  path=usePathname();
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+
+[00:42:44.060] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:16
+Ecmascript file had an error
+  4 | import Link from 'next/link'
+  5 | import { usePathname } from 'next/navogation'
+> 6 | import React,{ useEffect} from 'react'
+    |                ^^^^^^^^^
+  7 |
+  8 | function Header() {
+  9 |     const  path=usePathname();
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+[00:42:44.060] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:8
+Ecmascript file had an error
+  4 | import Link from 'next/link'
+  5 | import { usePathname } from 'next/navogation'
+> 6 | import React,{ useEffect} from 'react'
+    |        ^^^^^
+  7 |
+  8 | function Header() {
+  9 |     const  path=usePathname();
+
+the name `React` is defined multiple times
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+[00:42:44.060] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React,{ useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:42:44.180] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:16
+Ecmascript file had an error
+  4 | import Link from 'next/link'
+  5 | import { usePathname } from 'next/navogation'
+> 6 | import React,{ useEffect} from 'react'
+    |                ^^^^^^^^^
+  7 |
+  8 | function Header() {
+  9 |     const  path=usePathname();
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+[00:42:44.180] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:8
+Ecmascript file had an error
+  4 | import Link from 'next/link'
+  5 | import { usePathname } from 'next/navogation'
+> 6 | import React,{ useEffect} from 'react'
+    |        ^^^^^
+  7 |
+  8 | function Header() {
+  9 |     const  path=usePathname();
+
+the name `React` is defined multiple times
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+[00:42:44.180] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React,{ useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:42:47.058] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:16
+Ecmascript file had an error
+  4 | import Link from 'next/link'
+  5 | import { usePathname } from 'next/navogation'
+> 6 | import React,{ useEffect} from 'react'
+    |                ^^^^^^^^^
+  7 |
+  8 | function Header() {
+  9 |     const  path=usePathname();
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+
+
+./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:8
+Ecmascript file had an error
+  4 | import Link from 'next/link'
+  5 | import { usePathname } from 'next/navogation'
+> 6 | import React,{ useEffect} from 'react'
+    |        ^^^^^
+  7 |
+  8 | function Header() {
+  9 |     const  path=usePathname();
+
+the name `React` is defined multiple times
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+
+
+./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React,{ useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:42:47.242] Browser ERROR   uncaughtError: Error: ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:16
+Ecmascript file had an error
+  4 | import Link from 'next/link'
+  5 | import { usePathname } from 'next/navogation'
+> 6 | import React,{ useEffect} from 'react'
+    |                ^^^^^^^^^
+  7 |
+  8 | function Header() {
+  9 |     const  path=usePathname();
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+
+[00:42:47.409] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:16
+Ecmascript file had an error
+  4 | import Link from 'next/link'
+  5 | import { usePathname } from 'next/navogation'
+> 6 | import React,{ useEffect} from 'react'
+    |                ^^^^^^^^^
+  7 |
+  8 | function Header() {
+  9 |     const  path=usePathname();
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+[00:42:47.409] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:8
+Ecmascript file had an error
+  4 | import Link from 'next/link'
+  5 | import { usePathname } from 'next/navogation'
+> 6 | import React,{ useEffect} from 'react'
+    |        ^^^^^
+  7 |
+  8 | function Header() {
+  9 |     const  path=usePathname();
+
+the name `React` is defined multiple times
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+[00:42:47.409] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React,{ useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:42:47.409] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:16
+Ecmascript file had an error
+  4 | import Link from 'next/link'
+  5 | import { usePathname } from 'next/navogation'
+> 6 | import React,{ useEffect} from 'react'
+    |                ^^^^^^^^^
+  7 |
+  8 | function Header() {
+  9 |     const  path=usePathname();
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+[00:42:47.409] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:8
+Ecmascript file had an error
+  4 | import Link from 'next/link'
+  5 | import { usePathname } from 'next/navogation'
+> 6 | import React,{ useEffect} from 'react'
+    |        ^^^^^
+  7 |
+  8 | function Header() {
+  9 |     const  path=usePathname();
+
+the name `React` is defined multiple times
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+[00:42:47.409] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React,{ useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:55:25.345] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React, { useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:55:25.349] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React, { useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:54.622] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React, { useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:54.631] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React, { useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:54.642] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React, { useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:54.648] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React, { useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:05.334] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React, { useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:05.350] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React, { useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:05:26.680] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React, { useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:05:26.685] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React, { useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:05.947] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:17
+Ecmascript file had an error
+  4 | import Link from 'next/link'
+  5 | import { usePathname } from 'next/navogation'
+> 6 | import React, { useEffect} from 'react'
+    |                 ^^^^^^^^^
+  7 |
+  8 | function Header() {
+  9 |     const  path=usePathname();
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+[00:43:05.947] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:8
+Ecmascript file had an error
+  4 | import Link from 'next/link'
+  5 | import { usePathname } from 'next/navogation'
+> 6 | import React, { useEffect} from 'react'
+    |        ^^^^^
+  7 |
+  8 | function Header() {
+  9 |     const  path=usePathname();
+
+the name `React` is defined multiple times
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+[00:43:05.947] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React, { useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:43:10.274] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:17
+Ecmascript file had an error
+  4 | import Link from 'next/link'
+  5 | import { usePathname } from 'next/navogation'
+> 6 | import React, { useEffect} from 'react'
+    |                 ^^^^^^^^^
+  7 |
+  8 | function Header() {
+  9 |     const  path=usePathname();
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+
+
+./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:8
+Ecmascript file had an error
+  4 | import Link from 'next/link'
+  5 | import { usePathname } from 'next/navogation'
+> 6 | import React, { useEffect} from 'react'
+    |        ^^^^^
+  7 |
+  8 | function Header() {
+  9 |     const  path=usePathname();
+
+the name `React` is defined multiple times
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+
+
+./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React, { useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:10.438] Browser ERROR   uncaughtError: Error: ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:17
+Ecmascript file had an error
+  4 | import Link from 'next/link'
+  5 | import { usePathname } from 'next/navogation'
+> 6 | import React, { useEffect} from 'react'
+    |                 ^^^^^^^^^
+  7 |
+  8 | function Header() {
+  9 |     const  path=usePathname();
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+
+[00:43:10.606] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:17
+Ecmascript file had an error
+  4 | import Link from 'next/link'
+  5 | import { usePathname } from 'next/navogation'
+> 6 | import React, { useEffect} from 'react'
+    |                 ^^^^^^^^^
+  7 |
+  8 | function Header() {
+  9 |     const  path=usePathname();
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+[00:43:10.607] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:8
+Ecmascript file had an error
+  4 | import Link from 'next/link'
+  5 | import { usePathname } from 'next/navogation'
+> 6 | import React, { useEffect} from 'react'
+    |        ^^^^^
+  7 |
+  8 | function Header() {
+  9 |     const  path=usePathname();
+
+the name `React` is defined multiple times
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+[00:43:10.607] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React, { useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:43:10.607] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:17
+Ecmascript file had an error
+  4 | import Link from 'next/link'
+  5 | import { usePathname } from 'next/navogation'
+> 6 | import React, { useEffect} from 'react'
+    |                 ^^^^^^^^^
+  7 |
+  8 | function Header() {
+  9 |     const  path=usePathname();
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+[00:43:10.607] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:8
+Ecmascript file had an error
+  4 | import Link from 'next/link'
+  5 | import { usePathname } from 'next/navogation'
+> 6 | import React, { useEffect} from 'react'
+    |        ^^^^^
+  7 |
+  8 | function Header() {
+  9 |     const  path=usePathname();
+
+the name `React` is defined multiple times
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+[00:43:10.607] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React, { useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:43:12.262] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:17
+Ecmascript file had an error
+  4 | import Link from 'next/link'
+  5 | import { usePathname } from 'next/navogation'
+> 6 | import React, { useEffect} from 'react'
+    |                 ^^^^^^^^^
+  7 |
+  8 | function Header() {
+  9 |     const  path=usePathname();
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+
+
+./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:8
+Ecmascript file had an error
+  4 | import Link from 'next/link'
+  5 | import { usePathname } from 'next/navogation'
+> 6 | import React, { useEffect} from 'react'
+    |        ^^^^^
+  7 |
+  8 | function Header() {
+  9 |     const  path=usePathname();
+
+the name `React` is defined multiple times
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+
+
+./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React, { useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:12.413] Browser ERROR   uncaughtError: Error: ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:17
+Ecmascript file had an error
+  4 | import Link from 'next/link'
+  5 | import { usePathname } from 'next/navogation'
+> 6 | import React, { useEffect} from 'react'
+    |                 ^^^^^^^^^
+  7 |
+  8 | function Header() {
+  9 |     const  path=usePathname();
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+
+[00:43:12.568] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:17
+Ecmascript file had an error
+  4 | import Link from 'next/link'
+  5 | import { usePathname } from 'next/navogation'
+> 6 | import React, { useEffect} from 'react'
+    |                 ^^^^^^^^^
+  7 |
+  8 | function Header() {
+  9 |     const  path=usePathname();
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+[00:43:12.568] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:8
+Ecmascript file had an error
+  4 | import Link from 'next/link'
+  5 | import { usePathname } from 'next/navogation'
+> 6 | import React, { useEffect} from 'react'
+    |        ^^^^^
+  7 |
+  8 | function Header() {
+  9 |     const  path=usePathname();
+
+the name `React` is defined multiple times
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+[00:43:12.568] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React, { useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:43:12.568] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:17
+Ecmascript file had an error
+  4 | import Link from 'next/link'
+  5 | import { usePathname } from 'next/navogation'
+> 6 | import React, { useEffect} from 'react'
+    |                 ^^^^^^^^^
+  7 |
+  8 | function Header() {
+  9 |     const  path=usePathname();
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+[00:43:12.568] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:8
+Ecmascript file had an error
+  4 | import Link from 'next/link'
+  5 | import { usePathname } from 'next/navogation'
+> 6 | import React, { useEffect} from 'react'
+    |        ^^^^^
+  7 |
+  8 | function Header() {
+  9 |     const  path=usePathname();
+
+the name `React` is defined multiple times
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+[00:43:12.568] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:5:1
+Module not found: Can't resolve 'next/navogation'
+  3 | import { Plus } from 'lucide-react'
+  4 | import Link from 'next/link'
+> 5 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import React, { useEffect} from 'react'
+  7 |
+  8 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:56:15.910] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:56:15.912] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:56:15.916] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:56:15.921] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:55.908] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:55.923] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:55.933] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:55.942] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:06:17.323] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:06:17.330] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:06:17.343] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:06:17.349] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:17:45.380] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:17:45.382] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:17:45.385] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:17:45.387] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:17:45.391] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:17:45.393] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:17:45.398] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:17:45.400] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:56.948] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:7:8
+Ecmascript file had an error
+   5 | import Link from 'next/link'
+   6 | import { usePathname } from 'next/navogation'
+>  7 | import React, { useEffect} from 'react'
+     |        ^^^^^
+   8 |
+   9 | function Header() {
+  10 |     const  path=usePathname();
+
+the name `React` is defined multiple times
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+[00:43:56.948] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:44:40.133] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:7:8
+Ecmascript file had an error
+   5 | import Link from 'next/link'
+   6 | import { usePathname } from 'next/navogation'
+>  7 | import React, { useEffect} from 'react'
+     |        ^^^^^
+   8 |
+   9 | function Header() {
+  10 |     const  path=usePathname();
+
+the name `React` is defined multiple times
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+
+
+./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:44:40.301] Browser ERROR   uncaughtError: Error: ./Desktop/Project/real-estate-app/app/_components/Header.jsx:7:8
+Ecmascript file had an error
+   5 | import Link from 'next/link'
+   6 | import { usePathname } from 'next/navogation'
+>  7 | import React, { useEffect} from 'react'
+     |        ^^^^^
+   8 |
+   9 | function Header() {
+  10 |     const  path=usePathname();
+
+the name `React` is defined multiple times
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+
+[00:44:40.480] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:7:8
+Ecmascript file had an error
+   5 | import Link from 'next/link'
+   6 | import { usePathname } from 'next/navogation'
+>  7 | import React, { useEffect} from 'react'
+     |        ^^^^^
+   8 |
+   9 | function Header() {
+  10 |     const  path=usePathname();
+
+the name `React` is defined multiple times
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+[00:44:40.480] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:44:40.480] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:7:8
+Ecmascript file had an error
+   5 | import Link from 'next/link'
+   6 | import { usePathname } from 'next/navogation'
+>  7 | import React, { useEffect} from 'react'
+     |        ^^^^^
+   8 |
+   9 | function Header() {
+  10 |     const  path=usePathname();
+
+the name `React` is defined multiple times
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+[00:44:40.480] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:57:25.444] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import  { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:57:25.451] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import  { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:57:25.464] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import  { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:57:25.473] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import  { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:07:26.761] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import  { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:07:26.779] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import  { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:07:26.790] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import  { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:07:26.800] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import  { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:05.436] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import  { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:05.455] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import  { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:05.469] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import  { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:05.478] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import  { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:18:54.741] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import  { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:18:54.757] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import  { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:18:54.765] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import  { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:18:54.769] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import  { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:18:54.776] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import  { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:18:54.782] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import  { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:18:54.784] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import  { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:18:54.786] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import  { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:05.950] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import  { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:45:09.668] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import  { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:09.836] Browser ERROR   uncaughtError: Error: ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import  { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:09.995] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import  { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:45:09.995] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import  { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:45:37.243] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:37.253] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:37.268] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:37.278] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:57:57.275] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:57:57.285] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:57:57.292] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:57:57.298] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:07:58.582] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:07:58.596] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:07:58.611] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:07:58.619] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:19:26.554] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:19:26.566] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:19:26.578] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:19:26.587] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:19:26.591] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:19:26.597] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:19:26.599] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:19:26.601] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:37.946] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:45:46.668] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:46.835] Browser ERROR   uncaughtError: Error: ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:47.001] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:45:47.001] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:6:1
+Module not found: Can't resolve 'next/navogation'
+  4 | import { Plus } from 'lucide-react'
+  5 | import Link from 'next/link'
+> 6 | import { usePathname } from 'next/navogation'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import React, { useEffect} from 'react'
+  8 |
+  9 | function Header() {
+
+Import map: aliased to module 'next' with subpath '/navogation' inside of [project]/Desktop/Project/real-estate-app
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/Provider.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:46:58.335] Server  LOG      ✓ Compiled in 362ms
+[00:59:18.354] Server  LOG      ✓ Compiled in 357ms
+[02:09:19.732] Server  LOG      ✓ Compiled in 434ms
+[01:20:47.752] Server  LOG      ✓ Compiled in 499ms
+[00:46:59.689] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:46:59.982] Browser LOG     /
+[00:48:00.279] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:48:00.486] Browser LOG     /
+[00:48:22.603] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:48:22.799] Browser LOG     /about
+[00:48:42.032] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:48:42.186] Browser LOG     /
+[00:51:20.132] Server  LOG      ✓ Compiled in 66ms
+[00:51:20.213] Browser LOG     /
+[00:51:29.893] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:51:30.010] Browser LOG     /
