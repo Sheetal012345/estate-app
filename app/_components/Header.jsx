@@ -17,17 +17,30 @@ function Header() {
 
          <img src="/logo380.svg" alt="logo" width={150} height={150} />
        <ul className=' hidden md:flex gap-10'>
-        <Link href={'/'}>
-        <li className={`'hover:text-primary font -medium text-sm cursor-pointer'${path=='/'&&'text-primary'}`}>For Sale</li>
-        </Link>
-        <li className='hover:text-primary font -medium text-sm cursor-pointer'>For Rent</li>
-        <li className='hover:text-primary font -medium text-sm cursor-pointer'>Agent Finder</li>
+        
+        <li className={`cursor-pointer font-medium text-sm hover:text-blue-600 hover:scale-105 transition-all duration-200 ${path === '/' ? 'text-blue-600' : ''}`}>
+    <Link href="/">For Sale</Link>
+  </li>
+
+  <li className="cursor-pointer font-medium text-sm hover:text-blue-600 hover:scale-105 transition-all duration-200">
+    <Link href="/rent">For Rent</Link>
+  </li>
+
+  <li className="cursor-pointer font-medium text-sm hover:text-blue-600 hover:scale-105 transition-all duration-200">
+    <Link href="/agents">Agent Finder</Link>
+  </li>
+
          </ul>
          </div>
          <div className='flex gap-2' >
          
-            <Button className="flex gap-2"><Plus className='h-5 w-5'/>Post Your Ad </Button>
-            <Button variant="outline">Login</Button>
+            <Button className="flex gap-2 bg-blue-600 hover:bg-blue-700 text-white">
+            <Plus className="h-5 w-5" /> Post Your Ad
+            </Button>
+           <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50">
+    Login
+  </Button>
+
          </div>
     </div>
   )
