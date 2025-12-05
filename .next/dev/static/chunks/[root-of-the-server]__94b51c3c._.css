@@ -413,8 +413,16 @@
 @layer components;
 
 @layer utilities {
+  .visible {
+    visibility: visible;
+  }
+
   .fixed {
     position: fixed;
+  }
+
+  .static {
+    position: static;
   }
 
   .z-10 {
@@ -453,6 +461,10 @@
     .container {
       max-width: 96rem;
     }
+  }
+
+  .mt-24 {
+    margin-top: calc(var(--spacing) * 24);
   }
 
   .flex {
@@ -584,6 +596,14 @@
     padding-block: calc(var(--spacing) * 2);
   }
 
+  .pt-0 {
+    padding-top: calc(var(--spacing) * 0);
+  }
+
+  .pt-28 {
+    padding-top: calc(var(--spacing) * 28);
+  }
+
   .text-sm {
     font-size: var(--text-sm);
     line-height: var(--tw-leading, var(--text-sm--line-height));
@@ -625,11 +645,6 @@
 
   .underline-offset-4 {
     text-underline-offset: 4px;
-  }
-
-  .antialiased {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
   }
 
   .shadow, .shadow-sm {
