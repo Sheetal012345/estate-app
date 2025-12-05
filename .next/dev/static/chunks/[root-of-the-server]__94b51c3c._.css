@@ -600,10 +600,6 @@
     padding-top: calc(var(--spacing) * 0);
   }
 
-  .pt-28 {
-    padding-top: calc(var(--spacing) * 28);
-  }
-
   .text-sm {
     font-size: var(--text-sm);
     line-height: var(--tw-leading, var(--text-sm--line-height));

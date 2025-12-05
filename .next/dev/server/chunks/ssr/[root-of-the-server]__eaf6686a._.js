@@ -118,6 +118,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Project$2f$real$2
 ;
 ;
 ;
+// import logo from '../../../public/logo380.svg'      
 function Header() {
     const path = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Project$2f$real$2d$estate$2d$app$2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["usePathname"])();
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Project$2f$real$2d$estate$2d$app$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
@@ -130,7 +131,7 @@ function Header() {
                 className: "flex gap-10 items-center",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Project$2f$real$2d$estate$2d$app$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                        src: "/logo380.svg",
+                        src: "/st.png",
                         alt: "logo",
                         width: 150,
                         height: 150

@@ -105,6 +105,7 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
+// import logo from '../../../public/logo380.svg'      
 function Header() {
     _s();
     const path = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Project$2f$real$2d$estate$2d$app$2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"])();
@@ -120,7 +121,7 @@ function Header() {
                 className: "flex gap-10 items-center",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Project$2f$real$2d$estate$2d$app$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                        src: "/logo380.svg",
+                        src: "/st.png",
                         alt: "logo",
                         width: 150,
                         height: 150

@@ -1,40 +1,734 @@
-[00:00:03.578] Server  WARN     ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
-[00:00:04.069] Server  LOG      ✓ Ready in 3.3s
-[00:00:07.399] Server  LOG      ○ Compiling / ...
-[00:00:15.579] Server  LOG     
+[00:00:02.887] Server  WARN     ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:00:03.586] Server  LOG      ✓ Ready in 2.8s
+[00:00:32.164] Server  LOG      ○ Compiling /_not-found/page ...
+[00:00:37.107] Server  LOG     
 
 [Clerk]: You are running in keyless mode.
 You can claim your keys by visiting https://dashboard.clerk.com/apps/claim?token=xg4bah0hlu4rh8eey0hotaiczqirnd4ovvz8de4v&return_url=http%3A%2F%2Flocalhost%3A3000%2F
 
-[00:00:18.325] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:19.597] Browser LOG     /
-[00:00:19.597] Browser LOG     /
-[00:00:22.481] Browser LOG     /
-[00:00:22.481] Browser LOG     /
-[00:00:22.481] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
-[00:00:42.005] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:42.270] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
-[00:00:42.271] Browser LOG     /
-[00:00:42.271] Browser LOG     /
-[00:05:02.178] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:02.517] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
-[00:05:02.517] Browser LOG     /
-[00:05:02.517] Browser LOG     /
-[00:05:46.412] Server  LOG      ✓ Compiled in 141ms
-[00:05:47.489] Browser LOG     /
-[00:05:47.489] Browser LOG     /
-[00:05:52.803] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:52.999] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
-[00:05:52.999] Browser LOG     /
-[00:06:32.914] Browser LOG     /
-[00:06:36.395] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:06:36.679] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
-[00:06:36.679] Browser LOG     /
-[00:07:58.507] Browser LOG     /
-[00:07:58.507] Browser LOG     /
-[00:08:03.016] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:03.295] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
-[00:08:03.295] Browser LOG     /
-[00:08:15.483] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:15.748] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
-[00:08:15.748] Browser LOG     /agents
+[00:00:40.290] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:41.839] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[00:00:41.839] Browser LOG     /agents
+[00:02:07.226] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:8:1
+Module not found: Can't resolve '../../../public/logo380.svg'
+   6 | import { usePathname } from 'next/navigation'
+   7 | import React, { useEffect} from 'react'
+>  8 | import logo from '../../../public/logo380.svg'      
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | function Header() {
+  10 |     const  path=usePathname();
+  11 |     useEffect(()=>{
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:07.233] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:8:1
+Module not found: Can't resolve '../../../public/logo380.svg'
+   6 | import { usePathname } from 'next/navigation'
+   7 | import React, { useEffect} from 'react'
+>  8 | import logo from '../../../public/logo380.svg'      
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | function Header() {
+  10 |     const  path=usePathname();
+  11 |     useEffect(()=>{
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:07.238] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:8:1
+Module not found: Can't resolve '../../../public/logo380.svg'
+   6 | import { usePathname } from 'next/navigation'
+   7 | import React, { useEffect} from 'react'
+>  8 | import logo from '../../../public/logo380.svg'      
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | function Header() {
+  10 |     const  path=usePathname();
+  11 |     useEffect(()=>{
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:07.242] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:8:1
+Module not found: Can't resolve '../../../public/logo380.svg'
+   6 | import { usePathname } from 'next/navigation'
+   7 | import React, { useEffect} from 'react'
+>  8 | import logo from '../../../public/logo380.svg'      
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | function Header() {
+  10 |     const  path=usePathname();
+  11 |     useEffect(()=>{
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:07.250] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:8:1
+Module not found: Can't resolve '../../../public/logo380.svg'
+   6 | import { usePathname } from 'next/navigation'
+   7 | import React, { useEffect} from 'react'
+>  8 | import logo from '../../../public/logo380.svg'      
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | function Header() {
+  10 |     const  path=usePathname();
+  11 |     useEffect(()=>{
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:07.272] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:8:1
+Module not found: Can't resolve '../../../public/logo380.svg'
+   6 | import { usePathname } from 'next/navigation'
+   7 | import React, { useEffect} from 'react'
+>  8 | import logo from '../../../public/logo380.svg'      
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | function Header() {
+  10 |     const  path=usePathname();
+  11 |     useEffect(()=>{
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:07.277] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:8:1
+Module not found: Can't resolve '../../../public/logo380.svg'
+   6 | import { usePathname } from 'next/navigation'
+   7 | import React, { useEffect} from 'react'
+>  8 | import logo from '../../../public/logo380.svg'      
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | function Header() {
+  10 |     const  path=usePathname();
+  11 |     useEffect(()=>{
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:07.288] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:8:1
+Module not found: Can't resolve '../../../public/logo380.svg'
+   6 | import { usePathname } from 'next/navigation'
+   7 | import React, { useEffect} from 'react'
+>  8 | import logo from '../../../public/logo380.svg'      
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | function Header() {
+  10 |     const  path=usePathname();
+  11 |     useEffect(()=>{
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:07.290] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:8:1
+Module not found: Can't resolve '../../../public/logo380.svg'
+   6 | import { usePathname } from 'next/navigation'
+   7 | import React, { useEffect} from 'react'
+>  8 | import logo from '../../../public/logo380.svg'      
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | function Header() {
+  10 |     const  path=usePathname();
+  11 |     useEffect(()=>{
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:07.306] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:8:1
+Module not found: Can't resolve '../../../public/logo380.svg'
+   6 | import { usePathname } from 'next/navigation'
+   7 | import React, { useEffect} from 'react'
+>  8 | import logo from '../../../public/logo380.svg'      
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | function Header() {
+  10 |     const  path=usePathname();
+  11 |     useEffect(()=>{
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:07.320] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:8:1
+Module not found: Can't resolve '../../../public/logo380.svg'
+   6 | import { usePathname } from 'next/navigation'
+   7 | import React, { useEffect} from 'react'
+>  8 | import logo from '../../../public/logo380.svg'      
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | function Header() {
+  10 |     const  path=usePathname();
+  11 |     useEffect(()=>{
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:07.323] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:8:1
+Module not found: Can't resolve '../../../public/logo380.svg'
+   6 | import { usePathname } from 'next/navigation'
+   7 | import React, { useEffect} from 'react'
+>  8 | import logo from '../../../public/logo380.svg'      
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | function Header() {
+  10 |     const  path=usePathname();
+  11 |     useEffect(()=>{
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:07.338] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:8:1
+Module not found: Can't resolve '../../../public/logo380.svg'
+   6 | import { usePathname } from 'next/navigation'
+   7 | import React, { useEffect} from 'react'
+>  8 | import logo from '../../../public/logo380.svg'      
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | function Header() {
+  10 |     const  path=usePathname();
+  11 |     useEffect(()=>{
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:07.339] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:8:1
+Module not found: Can't resolve '../../../public/logo380.svg'
+   6 | import { usePathname } from 'next/navigation'
+   7 | import React, { useEffect} from 'react'
+>  8 | import logo from '../../../public/logo380.svg'      
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | function Header() {
+  10 |     const  path=usePathname();
+  11 |     useEffect(()=>{
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:07.341] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:8:1
+Module not found: Can't resolve '../../../public/logo380.svg'
+   6 | import { usePathname } from 'next/navigation'
+   7 | import React, { useEffect} from 'react'
+>  8 | import logo from '../../../public/logo380.svg'      
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | function Header() {
+  10 |     const  path=usePathname();
+  11 |     useEffect(()=>{
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:07.344] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:8:1
+Module not found: Can't resolve '../../../public/logo380.svg'
+   6 | import { usePathname } from 'next/navigation'
+   7 | import React, { useEffect} from 'react'
+>  8 | import logo from '../../../public/logo380.svg'      
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | function Header() {
+  10 |     const  path=usePathname();
+  11 |     useEffect(()=>{
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:07.351] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:8:1
+Module not found: Can't resolve '../../../public/logo380.svg'
+   6 | import { usePathname } from 'next/navigation'
+   7 | import React, { useEffect} from 'react'
+>  8 | import logo from '../../../public/logo380.svg'      
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | function Header() {
+  10 |     const  path=usePathname();
+  11 |     useEffect(()=>{
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:07.355] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:8:1
+Module not found: Can't resolve '../../../public/logo380.svg'
+   6 | import { usePathname } from 'next/navigation'
+   7 | import React, { useEffect} from 'react'
+>  8 | import logo from '../../../public/logo380.svg'      
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | function Header() {
+  10 |     const  path=usePathname();
+  11 |     useEffect(()=>{
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:07.368] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:8:1
+Module not found: Can't resolve '../../../public/logo380.svg'
+   6 | import { usePathname } from 'next/navigation'
+   7 | import React, { useEffect} from 'react'
+>  8 | import logo from '../../../public/logo380.svg'      
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | function Header() {
+  10 |     const  path=usePathname();
+  11 |     useEffect(()=>{
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:07.374] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:8:1
+Module not found: Can't resolve '../../../public/logo380.svg'
+   6 | import { usePathname } from 'next/navigation'
+   7 | import React, { useEffect} from 'react'
+>  8 | import logo from '../../../public/logo380.svg'      
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | function Header() {
+  10 |     const  path=usePathname();
+  11 |     useEffect(()=>{
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:07.385] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:8:1
+Module not found: Can't resolve '../../../public/logo380.svg'
+   6 | import { usePathname } from 'next/navigation'
+   7 | import React, { useEffect} from 'react'
+>  8 | import logo from '../../../public/logo380.svg'      
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | function Header() {
+  10 |     const  path=usePathname();
+  11 |     useEffect(()=>{
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:07.388] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:8:1
+Module not found: Can't resolve '../../../public/logo380.svg'
+   6 | import { usePathname } from 'next/navigation'
+   7 | import React, { useEffect} from 'react'
+>  8 | import logo from '../../../public/logo380.svg'      
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | function Header() {
+  10 |     const  path=usePathname();
+  11 |     useEffect(()=>{
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:07.391] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:8:1
+Module not found: Can't resolve '../../../public/logo380.svg'
+   6 | import { usePathname } from 'next/navigation'
+   7 | import React, { useEffect} from 'react'
+>  8 | import logo from '../../../public/logo380.svg'      
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | function Header() {
+  10 |     const  path=usePathname();
+  11 |     useEffect(()=>{
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:07.393] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:8:1
+Module not found: Can't resolve '../../../public/logo380.svg'
+   6 | import { usePathname } from 'next/navigation'
+   7 | import React, { useEffect} from 'react'
+>  8 | import logo from '../../../public/logo380.svg'      
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | function Header() {
+  10 |     const  path=usePathname();
+  11 |     useEffect(()=>{
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:07.404] Server  LOG      ✓ Compiled in 121ms
+[00:02:07.824] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:8:1
+Module not found: Can't resolve '../../../public/logo380.svg'
+   6 | import { usePathname } from 'next/navigation'
+   7 | import React, { useEffect} from 'react'
+>  8 | import logo from '../../../public/logo380.svg'      
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | function Header() {
+  10 |     const  path=usePathname();
+  11 |     useEffect(()=>{
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:13.186] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:8:1
+Module not found: Can't resolve '../../../public/logo380.svg'
+   6 | import { usePathname } from 'next/navigation'
+   7 | import React, { useEffect} from 'react'
+>  8 | import logo from '../../../public/logo380.svg'      
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | function Header() {
+  10 |     const  path=usePathname();
+  11 |     useEffect(()=>{
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:13.297] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:8:1
+Module not found: Can't resolve '../../../public/logo380.svg'
+   6 | import { usePathname } from 'next/navigation'
+   7 | import React, { useEffect} from 'react'
+>  8 | import logo from '../../../public/logo380.svg'      
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | function Header() {
+  10 |     const  path=usePathname();
+  11 |     useEffect(()=>{
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:14.214] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:8:1
+Module not found: Can't resolve '../../../public/logo380.svg'
+   6 | import { usePathname } from 'next/navigation'
+   7 | import React, { useEffect} from 'react'
+>  8 | import logo from '../../../public/logo380.svg'      
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | function Header() {
+  10 |     const  path=usePathname();
+  11 |     useEffect(()=>{
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:14.336] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:8:1
+Module not found: Can't resolve '../../../public/logo380.svg'
+   6 | import { usePathname } from 'next/navigation'
+   7 | import React, { useEffect} from 'react'
+>  8 | import logo from '../../../public/logo380.svg'      
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | function Header() {
+  10 |     const  path=usePathname();
+  11 |     useEffect(()=>{
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:15.355] Browser ERROR   uncaughtError: Error: ./Desktop/Project/real-estate-app/app/_components/Header.jsx:8:1
+Module not found: Can't resolve '../../../public/logo380.svg'
+   6 | import { usePathname } from 'next/navigation'
+   7 | import React, { useEffect} from 'react'
+>  8 | import logo from '../../../public/logo380.svg'      
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | function Header() {
+  10 |     const  path=usePathname();
+  11 |     useEffect(()=>{
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:15.486] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:8:1
+Module not found: Can't resolve '../../../public/logo380.svg'
+   6 | import { usePathname } from 'next/navigation'
+   7 | import React, { useEffect} from 'react'
+>  8 | import logo from '../../../public/logo380.svg'      
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | function Header() {
+  10 |     const  path=usePathname();
+  11 |     useEffect(()=>{
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:15.854] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:8:1
+Module not found: Can't resolve '../../../public/logo380.svg'
+   6 | import { usePathname } from 'next/navigation'
+   7 | import React, { useEffect} from 'react'
+>  8 | import logo from '../../../public/logo380.svg'      
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | function Header() {
+  10 |     const  path=usePathname();
+  11 |     useEffect(()=>{
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:18.776] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/_components/Header.jsx:8:1
+Module not found: Can't resolve '../../../public/logo380.svg'
+   6 | import { usePathname } from 'next/navigation'
+   7 | import React, { useEffect} from 'react'
+>  8 | import logo from '../../../public/logo380.svg'      
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | function Header() {
+  10 |     const  path=usePathname();
+  11 |     useEffect(()=>{
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:19.097] Browser ERROR   uncaughtError: Error: ./Desktop/Project/real-estate-app/app/_components/Header.jsx:8:1
+Module not found: Can't resolve '../../../public/logo380.svg'
+   6 | import { usePathname } from 'next/navigation'
+   7 | import React, { useEffect} from 'react'
+>  8 | import logo from '../../../public/logo380.svg'      
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | function Header() {
+  10 |     const  path=usePathname();
+  11 |     useEffect(()=>{
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:19.273] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:8:1
+Module not found: Can't resolve '../../../public/logo380.svg'
+   6 | import { usePathname } from 'next/navigation'
+   7 | import React, { useEffect} from 'react'
+>  8 | import logo from '../../../public/logo380.svg'      
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | function Header() {
+  10 |     const  path=usePathname();
+  11 |     useEffect(()=>{
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:19.273] Browser ERROR   ./Desktop/Project/real-estate-app/app/_components/Header.jsx:8:1
+Module not found: Can't resolve '../../../public/logo380.svg'
+   6 | import { usePathname } from 'next/navigation'
+   7 | import React, { useEffect} from 'react'
+>  8 | import logo from '../../../public/logo380.svg'      
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | function Header() {
+  10 |     const  path=usePathname();
+  11 |     useEffect(()=>{
+
+Import trace:
+  Server Component:
+    ./Desktop/Project/real-estate-app/app/_components/Header.jsx
+    ./Desktop/Project/real-estate-app/app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:52.828] Server  LOG      ✓ Compiled in 87ms
+[00:02:54.562] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:55.142] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[00:02:55.142] Browser LOG     /agents
+[00:02:57.805] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:58.378] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[00:02:58.378] Browser LOG     /agents
+[00:04:05.437] Server  LOG      ✓ Compiled in 63ms
+[00:04:05.826] Browser LOG     /agents
+[00:04:11.061] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:11.342] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[00:04:11.342] Browser LOG     /agents
+[00:11:44.313] Server  LOG      ✓ Compiled in 73ms
+[00:11:44.824] Browser LOG     /agents
+[00:11:49.766] Server  LOG     
+
+[Clerk]: You are running in keyless mode.
+You can claim your keys by visiting https://dashboard.clerk.com/apps/claim?token=xg4bah0hlu4rh8eey0hotaiczqirnd4ovvz8de4v&return_url=http%3A%2F%2Flocalhost%3A3000%2F
+
+[00:11:50.566] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:50.880] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[00:11:50.880] Browser LOG     /agents
+[00:17:05.230] Server  LOG      ✓ Compiled in 238ms
+[00:17:05.871] Browser LOG     /agents
+[00:22:37.170] Server  LOG      ✓ Compiled in 70ms
+[00:22:37.827] Browser LOG     /agents
+[00:22:43.948] Server  LOG     
+
+[Clerk]: You are running in keyless mode.
+You can claim your keys by visiting https://dashboard.clerk.com/apps/claim?token=xg4bah0hlu4rh8eey0hotaiczqirnd4ovvz8de4v&return_url=http%3A%2F%2Flocalhost%3A3000%2F
+
+[00:22:44.602] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:44.877] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[00:22:44.877] Browser LOG     /agents

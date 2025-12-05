@@ -5,7 +5,7 @@ import { Plus } from 'lucide-react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import React, { useEffect} from 'react'
-
+// import logo from '../../../public/logo380.svg'      
 function Header() {
     const  path=usePathname();
     useEffect(()=>{
@@ -15,7 +15,7 @@ function Header() {
     <div className='p-6 px-10 flex justify-between shadow-sm fixed to-0 w-full z-10 bg-white'>
         <div className='flex gap-10 items-center'>
 
-         <img src="/logo380.svg" alt="logo" width={150} height={150} />
+         <img src="/st.png" alt="logo" width={150} height={150} />
        <ul className=' hidden md:flex gap-10'>
         
         <li className={`cursor-pointer font-medium text-sm hover:text-blue-600 hover:scale-105 transition-all duration-200 ${path === '/' ? 'text-blue-600' : ''}`}>
