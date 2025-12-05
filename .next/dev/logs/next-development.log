@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [00:00:03.581] Server  WARN     ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
 [00:00:04.050] Server  LOG      ✓ Ready in 3.1s
 [00:00:12.112] Server  LOG      ○ Compiling / ...
@@ -13,3 +14,45 @@
 [00:01:15.161] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
 [00:01:28.815] Browser ERROR   React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element. redirectUrl redirecturl
 [00:01:38.055] Browser WARN    Clerk: The prop "redirectUrl" is deprecated and should be replaced with the new "fallbackRedirectUrl" or "forceRedirectUrl" props instead. Learn more: https://clerk.com/docs/guides/custom-redirects#redirect-url-props
+=======
+[00:00:03.578] Server  WARN     ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:00:04.069] Server  LOG      ✓ Ready in 3.3s
+[00:00:07.399] Server  LOG      ○ Compiling / ...
+[00:00:15.579] Server  LOG     
+
+[Clerk]: You are running in keyless mode.
+You can claim your keys by visiting https://dashboard.clerk.com/apps/claim?token=xg4bah0hlu4rh8eey0hotaiczqirnd4ovvz8de4v&return_url=http%3A%2F%2Flocalhost%3A3000%2F
+
+[00:00:18.325] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:19.597] Browser LOG     /
+[00:00:19.597] Browser LOG     /
+[00:00:22.481] Browser LOG     /
+[00:00:22.481] Browser LOG     /
+[00:00:22.481] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[00:00:42.005] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:42.270] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[00:00:42.271] Browser LOG     /
+[00:00:42.271] Browser LOG     /
+[00:05:02.178] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:02.517] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[00:05:02.517] Browser LOG     /
+[00:05:02.517] Browser LOG     /
+[00:05:46.412] Server  LOG      ✓ Compiled in 141ms
+[00:05:47.489] Browser LOG     /
+[00:05:47.489] Browser LOG     /
+[00:05:52.803] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:52.999] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[00:05:52.999] Browser LOG     /
+[00:06:32.914] Browser LOG     /
+[00:06:36.395] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:36.679] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[00:06:36.679] Browser LOG     /
+[00:07:58.507] Browser LOG     /
+[00:07:58.507] Browser LOG     /
+[00:08:03.016] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:03.295] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[00:08:03.295] Browser LOG     /
+[00:08:15.483] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:15.748] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[00:08:15.748] Browser LOG     /agents
+>>>>>>> 63aee19b084b6e624919097f374af1b773d4b3c7

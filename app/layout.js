@@ -26,14 +26,14 @@ export default function RootLayout({ children }) {
         <body className={`${geistSans.variable} ${geistMono.variable}`}>
           
           {/* ALWAYS visible header */}
-          <Header />
+          <Header/> 
 
           {/* MAIN CONTENT with top padding so Clerk doesn't go behind header */}
-          <div className="pt-28">
-            <Provider>
+          {/* <div className="pt-0"> */}
+            {/* <Provider>
               {children}
             </Provider>
-          </div>
+          </div> */}
 
         </body>
       </html>
