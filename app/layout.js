@@ -3,6 +3,7 @@ import "./globals.css";
 import Provider from "./Provider";
 import { ClerkProvider } from '@clerk/nextjs';
 import Header from "@/app/_components/Header";
+import { Toaster } from "sonner";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,15 +26,17 @@ export default function RootLayout({ children }) {
       <html lang="en">
         <body className={`${geistSans.variable} ${geistMono.variable}`}>
           
-          {/* ALWAYS visible header */}
-          <Header/> 
+          {/* Header stays on all pages */}
+          <Header /> 
 
-          {/* MAIN CONTENT with top padding so Clerk doesn't go behind header */}
-          {/* <div className="pt-0"> */}
-            {/* <Provider>
+          {/* MAIN CONTENT */}
+          <div className="pt-24"> 
+            <Provider>
+              <Toaster richColors position="top-right" />
+
               {children}
             </Provider>
-          </div> */}
+          </div>
 
         </body>
       </html>

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/hp/Desktop/project1/estate-app/app/%28routes%29/add-new-listing/page.jsx"],"sourcesContent":["\"use client\";\r\n\r\nimport dynamic from \"next/dynamic\";\r\n\r\nconst GoogleAddressSearch = dynamic(\r\n  () => import(\"@/app/_components/GoogleAddressSearch\"),\r\n  { ssr: false }\r\n);\r\n\r\nexport default function AddNewListing() {\r\n  return (\r\n    <div className=\"p-10\">\r\n      <GoogleAddressSearch onSelect={(place) => console.log(place)} />\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AAEA;;AAFA;;;AAIA,MAAM,sBAAsB,IAAA,0KAAO;;;;;;IAE/B,KAAK;;AAGM,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;kBACb,cAAA,8OAAC;YAAoB,UAAU,CAAC,QAAU,QAAQ,GAAG,CAAC;;;;;;;;;;;AAG5D"}}]
+}

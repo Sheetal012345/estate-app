@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "/(auth)/sign-in/[[...sign-in]]/page": "app/(auth)/sign-in/[[...sign-in]]/page.js",
   "/(routes)/add-new-listing/page": "app/(routes)/add-new-listing/page.js",
-=======
-  "/_not-found/page": "app/_not-found/page.js",
->>>>>>> 63aee19b084b6e624919097f374af1b773d4b3c7
-  "/page": "app/page.js"
+  "/_not-found/page": "app/_not-found/page.js"
 }
