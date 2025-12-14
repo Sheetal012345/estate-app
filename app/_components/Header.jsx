@@ -1,49 +1,65 @@
-"use client"
+"use client";
 
-import { Button } from '@/components/ui/button'
-import { Plus } from 'lucide-react'
-import Link from 'next/link'
-import { usePathname } from 'next/navigation'
-import React, { useEffect} from 'react'
-// import logo from '../../../public/logo380.svg'      
+import React from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { Button } from "@/components/ui/button";
+import { Plus } from "lucide-react";
+import { SignInButton, SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
+
+const navItems = [
+  { label: "For Sale", href: "/" },
+  { label: "For Rent", href: "/rent" },
+  { label: "Agent Finder", href: "/agents" },
+];
+
 function Header() {
-    const  path=usePathname();
-    useEffect(()=>{
-        console.log(path)
-    })
+  const path = usePathname();
+
   return (
-    <div className='p-6 px-10 flex justify-between shadow-sm fixed to-0 w-full z-10 bg-white'>
-        <div className='flex gap-10 items-center'>
+    <div className="p-3 px-6 flex justify-between items-center shadow-sm fixed top-0 w-full z-50 bg-white">
+      {/* Left Section */}
+      <div className="flex items-center gap-10">
+        <Link href="/">
+          <img src="/logo380.svg" alt="logo" width={80} height={80} />
+        </Link>
 
-         <img src="/st.png" alt="logo" width={150} height={150} />
-       <ul className=' hidden md:flex gap-10'>
-        
-        <li className={`cursor-pointer font-medium text-sm hover:text-blue-600 hover:scale-105 transition-all duration-200 ${path === '/' ? 'text-blue-600' : ''}`}>
-    <Link href="/">For Sale</Link>
-  </li>
+        <ul className="hidden md:flex gap-10">
+          {navItems.map((item) => (
+            <li key={item.href}>
+              <Link
+                href={item.href}
+                className={`font-medium text-sm cursor-pointer hover:text-blue-600 hover:scale-105 transition-all duration-200 ${
+                  path === item.href ? "text-blue-600" : ""
+                }`}
+              >
+                {item.label}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
 
-  <li className="cursor-pointer font-medium text-sm hover:text-blue-600 hover:scale-105 transition-all duration-200">
-    <Link href="/rent">For Rent</Link>
-  </li>
-
-  <li className="cursor-pointer font-medium text-sm hover:text-blue-600 hover:scale-105 transition-all duration-200">
-    <Link href="/agents">Agent Finder</Link>
-  </li>
-
-         </ul>
-         </div>
-         <div className='flex gap-2' >
-         
-            <Button className="flex gap-2 bg-blue-600 hover:bg-blue-700 text-white">
+      {/* Right Section */}
+      <div className="flex gap-3 items-center">
+        <Link href="/post">
+          <Button className="flex gap-2">
             <Plus className="h-5 w-5" /> Post Your Ad
-            </Button>
-           <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50">
-    Login
-  </Button>
+          </Button>
+        </Link>
 
-         </div>
+        <SignedOut>
+          <SignInButton>
+            <Button variant="outline">Login</Button>
+          </SignInButton>
+        </SignedOut>
+
+        <SignedIn>
+          <UserButton afterSignOutUrl="/" />
+        </SignedIn>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Header
+export default Header;
