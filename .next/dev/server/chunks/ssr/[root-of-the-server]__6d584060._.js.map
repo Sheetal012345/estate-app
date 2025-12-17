@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/hp/Desktop/project1/estate-app/app/_components/GoogleAddressSearch.jsx"],"sourcesContent":["import React from 'react'\r\n\r\nfunction GoogleAddressSearch() {\r\n  return (\r\n    <div> <GooglePlacesAutocomplete\r\n      apiKey={process.env.NEXT_PUBLIC_GOOGLE_PLACE_API_KEY}/>\r\n      </div>\r\n  )\r\n}\r\n\r\nexport default GoogleAddressSearch"],"names":[],"mappings":";;;;;AAAA;;;AAEA,SAAS;IACP,qBACE,8OAAC;;YAAI;0BAAC,8OAAC;gBACL,MAAM;;;;;;;;;;;;AAGZ;uCAEe"}},
+    {"offset": {"line": 53, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/hp/Desktop/project1/estate-app/app/%28routes%29/add-new-listing/page.jsx"],"sourcesContent":["import GoogleAddressSearch from '@/app/_components/GoogleAddressSearch'\r\nimport React from 'react'\r\n\r\nfunction AddNewListing() {\r\n  return (\r\n    <div className='p-10 flex flex-col gap-5 items-center justify-center'>\r\n        <h2 className='font-bold text 2xl:'></h2>AddNewListing\r\n        <div>\r\n            <h2 className='text-gray-500'> Enter Address whichyou want to list </h2>\r\n           <GoogleAddressSearch/>\r\n        </div>\r\n        </div>\r\n  )\r\n}\r\n\r\nexport default AddNewListing"],"names":[],"mappings":";;;;;AAAA;AACA;;;;AAEA,SAAS;IACP,qBACE,8OAAC;QAAI,WAAU;;0BACX,8OAAC;gBAAG,WAAU;;;;;;YAA2B;0BACzC,8OAAC;;kCACG,8OAAC;wBAAG,WAAU;kCAAgB;;;;;;kCAC/B,8OAAC,qJAAmB;;;;;;;;;;;;;;;;;AAI/B;uCAEe"}}]
+}

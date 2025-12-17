@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/hp/Desktop/project1/estate-app/app/post/page.jsx"],"sourcesContent":["import React from 'react'\r\n\r\nfunction AddNewListing() {\r\n  return (\r\n    <div>Add New Listing</div>\r\n  )\r\n}\r\n\r\nexport default AddNewListing"],"names":[],"mappings":";;;;;AAAA;;;AAEA,SAAS;IACP,qBACE,8OAAC;kBAAI;;;;;;AAET;uCAEe"}}]
+}

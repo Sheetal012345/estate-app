@@ -1,0 +1,9 @@
+(globalThis.TURBOPACK_CHUNK_LISTS || (globalThis.TURBOPACK_CHUNK_LISTS = [])).push({
+    script: typeof document === "object" ? document.currentScript : undefined,
+    chunks: [
+  "static/chunks/2545d_16e2dda4._.js",
+  "static/chunks/Desktop_Project_real-estate-app_app__components_LeafletMap_jsx_d46360cd._.js",
+  "static/chunks/2545d_leaflet_dist_leaflet_761b1fa1.css"
+],
+    source: "dynamic"
+});

@@ -5,55 +5,57 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Plus } from "lucide-react";
-import { SignInButton, SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
-
-const navItems = [
-  { label: "For Sale", href: "/" },
-  { label: "For Rent", href: "/rent" },
-  { label: "Agent Finder", href: "/agents" },
-];
+import { SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
 
 function Header() {
   const path = usePathname();
 
+  const navItems = [
+    { label: "For Sale", href: "/" },
+    { label: "For Rent", href: "/rent" },
+    { label: "Agent Finder", href: "/agents" },
+  ];
+
   return (
-    <div className="p-3 px-6 flex justify-between items-center shadow-sm fixed top-0 w-full z-50 bg-white">
+    <div className="p-6 px-10 flex justify-between items-center shadow-sm fixed top-0 w-full z-50 bg-white">
       {/* Left Section */}
       <div className="flex items-center gap-10">
         <Link href="/">
-          <img src="/logo380.svg" alt="logo" width={80} height={80} />
+          <img src="/logo380.svg" alt="logo" width={150} height={150} />
         </Link>
 
         <ul className="hidden md:flex gap-10">
           {navItems.map((item) => (
-            <li key={item.href}>
-              <Link
-                href={item.href}
-                className={`font-medium text-sm cursor-pointer hover:text-blue-600 hover:scale-105 transition-all duration-200 ${
-                  path === item.href ? "text-blue-600" : ""
+            <Link key={item.href} href={item.href}>
+              <li
+                className={`font-medium text-sm cursor-pointer hover:text-primary ${
+                  path === item.href ? "text-primary" : ""
                 }`}
               >
                 {item.label}
-              </Link>
-            </li>
+              </li>
+            </Link>
           ))}
         </ul>
       </div>
 
       {/* Right Section */}
       <div className="flex gap-3 items-center">
-        <Link href="/post">
+        <Link href="/add-new-listing">
           <Button className="flex gap-2">
-            <Plus className="h-5 w-5" /> Post Your Ad
+            <Plus className="h-5 w-5" />
+            Post Your Ad
           </Button>
         </Link>
 
+        {/* Not Signed In → Redirect to /sign-in */}
         <SignedOut>
-          <SignInButton>
+          <Link href="/sign-in">
             <Button variant="outline">Login</Button>
-          </SignInButton>
+          </Link>
         </SignedOut>
 
+        {/* Signed In → Show User Button */}
         <SignedIn>
           <UserButton afterSignOutUrl="/" />
         </SignedIn>

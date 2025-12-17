@@ -1,10 +1,3977 @@
-[00:00:02.412] Server  WARN     ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
-[00:00:02.652] Server  LOG      ✓ Ready in 2.1s
-[00:00:28.489] Server  LOG      ○ Compiling / ...
-[00:00:38.749] Server  LOG     
+[00:00:01.905] Server  WARN     ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:00:02.156] Server  LOG      ✓ Ready in 1717ms
+[00:00:10.291] Server  LOG      ○ Compiling /_not-found/page ...
+[00:00:12.492] Server  LOG     
 
 [Clerk]: You are running in keyless mode.
 You can claim your keys by visiting https://dashboard.clerk.com/apps/claim?token=xg4bah0hlu4rh8eey0hotaiczqirnd4ovvz8de4v&return_url=http%3A%2F%2Flocalhost%3A3000%2F
 
-[00:00:40.364] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:40.511] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[00:00:13.310] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:13.568] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[00:00:27.303] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:27.623] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[00:00:27.623] Browser LOG     Editing Listing ID: 6
+[00:00:27.918] Browser LOG     Editing Listing ID: 6
+[00:56:04.221] Server  LOG      ✓ Compiled in 171ms
+[01:01:08.231] Server  LOG      ✓ Compiled in 236ms
+[01:01:08.806] Browser ERROR   uncaughtError: ReferenceError: FileUpload is not defined
+[01:01:33.243] Server  LOG     
+
+[Clerk]: You are running in keyless mode.
+You can claim your keys by visiting https://dashboard.clerk.com/apps/claim?token=xg4bah0hlu4rh8eey0hotaiczqirnd4ovvz8de4v&return_url=http%3A%2F%2Flocalhost%3A3000%2F
+
+[01:01:33.540] Server  ERROR   C:\Users\HP\Desktop\Project\real-estate-app\.next\dev\server\chunks\ssr\Desktop_Project_real-estate-app_d8458554._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:01:33.571] Server  ERROR   C:\Users\HP\Desktop\Project\real-estate-app\.next\dev\server\chunks\ssr\2545d_504fe0e2._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:01:33.582] Server  ERROR    ⨯ ReferenceError: FileUpload is not defined
+[01:01:34.232] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:01:34.585] Browser ERROR   uncaughtError: ReferenceError: FileUpload is not defined
+[01:01:34.707] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[01:02:55.027] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:02:55.031] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:02:55.035] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:02:55.040] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:02:55.053] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:02:55.059] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:02:55.063] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:02:55.067] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:02:55.077] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:02:55.087] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:02:55.118] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:02:55.124] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:02:55.129] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:02:55.133] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:02:55.139] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:02:55.142] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:02:55.145] Server  LOG      ✓ Compiled in 182ms
+[01:02:55.820] Browser ERROR   ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:03:29.135] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '<edit-listing></edit-listing>/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "<edit-listing></edit-listing>/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:29.139] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '<edit-listing></edit-listing>/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "<edit-listing></edit-listing>/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:29.142] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '<edit-listing></edit-listing>/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "<edit-listing></edit-listing>/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:29.147] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '<edit-listing></edit-listing>/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "<edit-listing></edit-listing>/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:29.153] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '<edit-listing></edit-listing>/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "<edit-listing></edit-listing>/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:29.157] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '<edit-listing></edit-listing>/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "<edit-listing></edit-listing>/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:29.167] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '<edit-listing></edit-listing>/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "<edit-listing></edit-listing>/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:29.172] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '<edit-listing></edit-listing>/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "<edit-listing></edit-listing>/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:29.177] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '<edit-listing></edit-listing>/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "<edit-listing></edit-listing>/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:29.181] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '<edit-listing></edit-listing>/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "<edit-listing></edit-listing>/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:29.184] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '<edit-listing></edit-listing>/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "<edit-listing></edit-listing>/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:29.195] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '<edit-listing></edit-listing>/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "<edit-listing></edit-listing>/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:29.200] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '<edit-listing></edit-listing>/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "<edit-listing></edit-listing>/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:29.216] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '<edit-listing></edit-listing>/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "<edit-listing></edit-listing>/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:29.229] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '<edit-listing></edit-listing>/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "<edit-listing></edit-listing>/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:29.235] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '<edit-listing></edit-listing>/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "<edit-listing></edit-listing>/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:29.242] Server  LOG      ✓ Compiled in 50ms
+[01:03:29.824] Browser ERROR   ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '<edit-listing></edit-listing>/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "<edit-listing></edit-listing>/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:03:49.110] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve 'edit-listing/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "edit-listing/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:49.114] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve 'edit-listing/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "edit-listing/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:49.119] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve 'edit-listing/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "edit-listing/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:49.128] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve 'edit-listing/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "edit-listing/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:49.134] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve 'edit-listing/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "edit-listing/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:49.141] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve 'edit-listing/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "edit-listing/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:49.145] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve 'edit-listing/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "edit-listing/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:49.148] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve 'edit-listing/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "edit-listing/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:49.156] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve 'edit-listing/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "edit-listing/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:49.160] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve 'edit-listing/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "edit-listing/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:49.162] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve 'edit-listing/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "edit-listing/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:49.165] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve 'edit-listing/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "edit-listing/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:49.171] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve 'edit-listing/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "edit-listing/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:49.178] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve 'edit-listing/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "edit-listing/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:49.182] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve 'edit-listing/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "edit-listing/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:49.189] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve 'edit-listing/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "edit-listing/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:03:49.191] Server  LOG      ✓ Compiled in 47ms
+[01:03:49.820] Browser ERROR   ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve 'edit-listing/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "edit-listing/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:05:27.583] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:05:27.585] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:05:27.588] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:05:27.597] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:05:27.602] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:05:27.605] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:05:27.611] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:05:27.615] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:05:27.618] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:05:27.622] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:05:27.631] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:05:27.634] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:05:27.638] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:05:27.647] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:05:27.649] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:05:27.654] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:05:27.656] Server  LOG      ✓ Compiled in 85ms
+[01:05:27.812] Browser ERROR   ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:08:23.821] Browser ERROR   ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:08:47.755] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '../components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "../components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:08:47.760] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '../components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "../components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:08:47.765] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '../components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "../components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:08:47.768] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '../components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "../components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:08:47.773] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '../components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "../components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:08:47.780] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '../components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "../components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:08:47.783] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '../components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "../components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:08:47.786] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '../components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "../components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:08:47.794] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '../components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "../components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:08:47.796] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '../components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "../components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:08:47.799] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '../components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "../components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:08:47.802] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '../components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "../components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:08:47.811] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '../components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "../components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:08:47.814] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '../components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "../components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:08:47.818] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '../components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "../components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:08:47.820] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '../components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "../components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:08:47.824] Server  LOG      ✓ Compiled in 58ms
+[01:08:48.765] Browser ERROR   ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '../components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "../components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:09:57.816] Browser ERROR   ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '../components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "../components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:10:33.818] Browser ERROR   ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '../components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "../components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:10:37.820] Browser ERROR   ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '../components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "../components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:11:04.813] Browser ERROR   ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '../components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "../components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 |
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:12:27.691] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:27.694] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:27.697] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:27.702] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:27.710] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:27.715] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:27.723] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:27.726] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:27.729] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:27.733] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:27.739] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:27.741] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:27.745] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:27.754] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:27.757] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:27.759] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:27.761] Server  LOG      ✓ Compiled in 44ms
+[01:12:27.874] Browser ERROR   ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+Import map: aliased to relative './components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:12:52.710] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/_components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/_components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+Import map: aliased to relative './_components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:52.713] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/_components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/_components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+Import map: aliased to relative './_components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:52.716] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/_components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/_components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+Import map: aliased to relative './_components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:52.719] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/_components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/_components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+Import map: aliased to relative './_components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:52.723] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/_components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/_components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+Import map: aliased to relative './_components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:52.727] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/_components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/_components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+Import map: aliased to relative './_components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:52.731] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/_components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/_components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+Import map: aliased to relative './_components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:52.739] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/_components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/_components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+Import map: aliased to relative './_components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:52.746] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/_components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/_components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+Import map: aliased to relative './_components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:52.750] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/_components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/_components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+Import map: aliased to relative './_components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:52.753] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/_components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/_components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+Import map: aliased to relative './_components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:52.756] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/_components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/_components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+Import map: aliased to relative './_components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:52.760] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/_components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/_components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+Import map: aliased to relative './_components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:52.766] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/_components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/_components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+Import map: aliased to relative './_components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:52.770] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/_components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/_components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+Import map: aliased to relative './_components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:52.772] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/_components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/_components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+Import map: aliased to relative './_components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:12:52.774] Server  LOG      ✓ Compiled in 53ms
+[01:12:53.810] Browser ERROR   ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '@/_components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "@/_components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+Import map: aliased to relative './_components/FileUpload' inside of [project]/Desktop/Project/real-estate-app
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:13:43.414] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '../../../../_components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "../../../../_components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:13:43.418] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '../../../../_components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "../../../../_components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:13:43.421] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '../../../../_components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "../../../../_components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:13:43.426] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '../../../../_components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "../../../../_components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:13:43.436] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '../../../../_components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "../../../../_components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:13:43.441] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '../../../../_components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "../../../../_components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:13:43.444] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '../../../../_components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "../../../../_components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:13:43.449] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '../../../../_components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "../../../../_components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:13:43.453] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '../../../../_components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "../../../../_components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:13:43.456] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '../../../../_components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "../../../../_components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:13:43.459] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '../../../../_components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "../../../../_components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:13:43.465] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '../../../../_components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "../../../../_components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:13:43.469] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '../../../../_components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "../../../../_components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:13:43.472] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '../../../../_components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "../../../../_components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:13:43.475] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '../../../../_components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "../../../../_components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:13:43.477] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '../../../../_components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "../../../../_components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:13:43.480] Server  LOG      ✓ Compiled in 67ms
+[01:13:43.812] Browser ERROR   ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:23:1
+Module not found: Can't resolve '../../../../_components/FileUpload'
+  21 | import { use } from "react";
+  22 | import { useState } from "react";
+> 23 | import FileUpload from "../../../../_components/FileUpload";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |
+  25 |
+  26 | export default function EditListing({ params }) {
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:15:35.093] Server  LOG      ✓ Compiled in 205ms
+[01:15:35.567] Server  LOG     
+
+[Clerk]: You are running in keyless mode.
+You can claim your keys by visiting https://dashboard.clerk.com/apps/claim?token=xg4bah0hlu4rh8eey0hotaiczqirnd4ovvz8de4v&return_url=http%3A%2F%2Flocalhost%3A3000%2F
+
+[01:15:35.572] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:15:35.755] Server  ERROR   Invalid DOM property `for`. Did you mean `htmlFor`?
+[01:15:35.766] Server  ERROR   Invalid DOM property `stroke-linecap`. Did you mean `strokeLinecap`?
+[01:15:35.769] Server  ERROR   Invalid DOM property `stroke-linejoin`. Did you mean `strokeLinejoin`?
+[01:15:35.769] Server  ERROR   Invalid DOM property `stroke-width`. Did you mean `strokeWidth`?
+[01:15:35.771] Server  ERROR   Invalid DOM property `class`. Did you mean `className`?
+[01:15:36.317] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:15:37.692] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[01:15:37.692] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[01:15:37.693] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[01:15:37.693] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[01:15:37.693] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? for htmlFor
+[01:15:37.693] Browser LOG     Editing Listing ID: 6
+[01:15:37.693] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[01:15:38.196] Browser LOG     Editing Listing ID: 6
+[01:16:25.049] Server  LOG      ✓ Compiled in 57ms
+[01:17:44.062] Server  LOG      ✓ Compiled in 64ms
+[01:18:04.704] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:18:05.079] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[01:18:05.079] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[01:18:05.079] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[01:18:05.079] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[01:18:05.079] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[01:18:05.079] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? for htmlFor
+[01:18:05.079] Browser LOG     Editing Listing ID: 6
+[01:18:05.350] Browser LOG     Editing Listing ID: 6
+[01:22:44.036] Server  LOG      ✓ Compiled in 107ms
+[01:28:39.978] Server  LOG      ✓ Compiled in 102ms
+[01:30:02.748] Browser LOG     {"0":{},"1":{}}
+[01:30:06.210] Browser LOG     FINAL PAYLOAD: {"active":true,"area":null,"bathroom":null,"bedroom":null,"builtIn":null,"description":null,"hoa":null,"lotSize":null,"parking":null,"price":null,"propertyType":null,"type":null}
+[01:30:06.210] Browser LOG     LISTING ID: 6
+[01:30:07.738] Browser LOG     SUPABASE RESPONSE: [] null
+[01:45:34.306] Server  LOG      ✓ Compiled in 55ms
+[01:45:34.817] Browser ERROR   ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/_components/FileUpload.jsx:41:1
+Parsing ecmascript source code failed
+  39 |         </div>
+  40 |     )
+> 41 | }
+     | ^
+  42 |
+  43 | export default FileUpload
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/_components/FileUpload.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/_components/FileUpload.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+[01:45:55.585] Browser ERROR   ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/_components/FileUpload.jsx:41:1
+Parsing ecmascript source code failed
+  39 |         </div>
+  40 |     )
+> 41 | }
+     | ^
+  42 |
+  43 | export default FileUpload
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/_components/FileUpload.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/_components/FileUpload.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+[01:46:39.816] Browser ERROR   ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/_components/FileUpload.jsx:41:1
+Parsing ecmascript source code failed
+  39 |         </div>
+  40 |     )
+> 41 | }
+     | ^
+  42 |
+  43 | export default FileUpload
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/_components/FileUpload.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/_components/FileUpload.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+[01:48:25.785] Server  LOG      ✓ Compiled in 34ms
+[01:48:26.811] Browser ERROR   ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/_components/FileUpload.jsx:43:1
+Parsing ecmascript source code failed
+  41 |       </div>
+  42 |     )
+> 43 | }
+     | ^
+  44 |
+  45 | export default FileUpload
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/_components/FileUpload.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/_components/FileUpload.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+[01:48:32.812] Browser ERROR   ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/_components/FileUpload.jsx:43:1
+Parsing ecmascript source code failed
+  41 |       </div>
+  42 |     )
+> 43 | }
+     | ^
+  44 |
+  45 | export default FileUpload
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/_components/FileUpload.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/_components/FileUpload.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+[01:49:29.345] Server  LOG      ✓ Compiled in 70ms
+[01:49:29.820] Browser ERROR   ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/_components/FileUpload.jsx:42:1
+Parsing ecmascript source code failed
+  40 |       </div>
+  41 |     )
+> 42 | }
+     | ^
+  43 |
+  44 | export default FileUpload
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/_components/FileUpload.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/_components/FileUpload.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+[01:50:36.814] Browser ERROR   ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/_components/FileUpload.jsx:42:1
+Parsing ecmascript source code failed
+  40 |       </div>
+  41 |     )
+> 42 | }
+     | ^
+  43 |
+  44 | export default FileUpload
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/_components/FileUpload.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/_components/FileUpload.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+[01:52:17.106] Server  LOG      ✓ Compiled in 425ms
+[01:52:18.704] Server  LOG     
+
+[Clerk]: You are running in keyless mode.
+You can claim your keys by visiting https://dashboard.clerk.com/apps/claim?token=xg4bah0hlu4rh8eey0hotaiczqirnd4ovvz8de4v&return_url=http%3A%2F%2Flocalhost%3A3000%2F
+
+[01:52:28.782] Browser LOG     {"0":{},"1":{}}
+[01:52:57.937] Browser LOG     {"0":{}}
+[02:02:35.104] Server  LOG      ✓ Compiled in 124ms
+[02:02:54.802] Server  LOG      ✓ Compiled in 41ms
+[02:03:08.633] Server  LOG     
+
+[Clerk]: You are running in keyless mode.
+You can claim your keys by visiting https://dashboard.clerk.com/apps/claim?token=xg4bah0hlu4rh8eey0hotaiczqirnd4ovvz8de4v&return_url=http%3A%2F%2Flocalhost%3A3000%2F
+
+[02:03:09.535] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:03:09.895] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[02:03:10.425] Browser LOG     Editing Listing ID: 6
+[02:03:10.546] Browser LOG     Editing Listing ID: 6
+[02:03:19.453] Browser LOG     {"0":{},"1":{}}
+[02:03:51.015] Server  LOG      ✓ Compiled in 180ms
+[02:05:17.297] Server  LOG      ✓ Compiled in 179ms
+[02:07:21.112] Server  LOG      ✓ Compiled in 114ms
+[02:14:45.743] Server  LOG      ✓ Compiled in 143ms
+[02:14:46.817] Browser LOG     Editing Listing ID: 6
+[02:26:37.356] Server  LOG      ✓ Compiled in 52ms
+[02:29:06.699] Server  LOG      ✓ Compiled in 41ms
+[02:29:42.101] Browser LOG     {"0":{}}
+[02:30:15.223] Browser LOG     FINAL PAYLOAD: {"active":true,"area":null,"bathroom":null,"bedroom":null,"builtIn":null,"description":null,"hoa":null,"lotSize":null,"parking":null,"price":null,"propertyType":null,"type":null}
+[02:30:15.223] Browser LOG     LISTING ID: 6
+[02:32:16.323] Browser LOG     {"0":{}}
+[02:32:21.063] Server  LOG     
+
+[Clerk]: You are running in keyless mode.
+You can claim your keys by visiting https://dashboard.clerk.com/apps/claim?token=xg4bah0hlu4rh8eey0hotaiczqirnd4ovvz8de4v&return_url=http%3A%2F%2Flocalhost%3A3000%2F
+
+[02:32:22.281] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:32:22.692] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[02:32:23.414] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <SWRConfig value={undefined}>
+      <__experimental_CheckoutProvider value={undefined}>
+        <RouterTelemetry>
+        <ClerkJSScript>
+        <html lang="en">
+          <body className="geist_2ae4...">
+            <Header>
+              <div className="p-6 px-10 ...">
+                <div>
+                <div className="flex gap-3...">
+                  <LinkComponent>
+                  <SignedOut>
+                    <LinkComponent href="/sign-in">
++                     <a
++                       ref={function}
++                       onClick={function onClick}
++                       onMouseEnter={function onMouseEnter}
++                       onTouchStart={function onTouchStart}
++                       href="/sign-in"
++                     >
+                  ...
+            ...
+
+[02:32:23.414] Browser LOG     Editing Listing ID: 6
+[02:32:23.414] Browser LOG     Editing Listing ID: 6
+[02:32:38.281] Browser LOG     {"0":{}}
+[02:32:53.376] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:32:54.009] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[02:32:54.730] Browser LOG     Editing Listing ID: 6
+[02:32:54.730] Browser LOG     Editing Listing ID: 6
+[02:33:44.339] Browser LOG     {"0":{}}
+[02:33:50.716] Browser LOG     FINAL PAYLOAD: {"active":true,"area":null,"bathroom":null,"bedroom":null,"builtIn":null,"description":null,"hoa":null,"lotSize":null,"parking":null,"price":null,"propertyType":null,"type":null}
+[02:33:50.716] Browser LOG     LISTING ID: 6
+[02:34:36.483] Browser LOG     FINAL PAYLOAD: {"active":true,"area":null,"bathroom":null,"bedroom":null,"builtIn":null,"description":null,"hoa":null,"lotSize":null,"parking":null,"price":null,"propertyType":null,"type":null}
+[02:34:36.483] Browser LOG     LISTING ID: 6
+[02:36:52.152] Server  LOG      ✓ Compiled in 233ms
+[02:36:52.813] Browser ERROR   ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:102:27
+Parsing ecmascript source code failed
+  100 |   const fileExt = fileName.split(".").pop();
+  101 |
+> 102 |   const { data, error } = await supabase.storage
+      |                           ^^^^^
+  103 |     .from("listingImages")
+  104 |     .upload(`${fileName}`, file, {
+  105 |       contentType: `image/${fileExt}`,
+
+await isn't allowed in non-async function
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+[02:40:28.812] Browser ERROR   ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:100:29
+Parsing ecmascript source code failed
+   98 |     const fileName = `${Date.now()}.${fileExt}`;
+   99 |
+> 100 |     const { data, error } = await supabase.storage
+      |                             ^^^^^
+  101 |       .from("listingImages")
+  102 |       .upload(fileName, file, {
+  103 |         contentType: file.type,
+
+await isn't allowed in non-async function
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+[02:40:34.138] Server  ERROR    ⨯ ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:100:29
+Parsing ecmascript source code failed
+   98 |     const fileName = `${Date.now()}.${fileExt}`;
+   99 |
+> 100 |     const { data, error } = await supabase.storage
+      |                             ^^^^^
+  101 |       .from("listingImages")
+  102 |       .upload(fileName, file, {
+  103 |         contentType: file.type,
+
+await isn't allowed in non-async function
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+
+[02:40:34.256] Browser ERROR   ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:100:29
+Parsing ecmascript source code failed
+   98 |     const fileName = `${Date.now()}.${fileExt}`;
+   99 |
+> 100 |     const { data, error } = await supabase.storage
+      |                             ^^^^^
+  101 |       .from("listingImages")
+  102 |       .upload(fileName, file, {
+  103 |         contentType: file.type,
+
+await isn't allowed in non-async function
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+[02:40:35.591] Browser ERROR   ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:100:29
+Parsing ecmascript source code failed
+   98 |     const fileName = `${Date.now()}.${fileExt}`;
+   99 |
+> 100 |     const { data, error } = await supabase.storage
+      |                             ^^^^^
+  101 |       .from("listingImages")
+  102 |       .upload(fileName, file, {
+  103 |         contentType: file.type,
+
+await isn't allowed in non-async function
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+[02:40:35.837] Browser ERROR   ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:100:29
+Parsing ecmascript source code failed
+   98 |     const fileName = `${Date.now()}.${fileExt}`;
+   99 |
+> 100 |     const { data, error } = await supabase.storage
+      |                             ^^^^^
+  101 |       .from("listingImages")
+  102 |       .upload(fileName, file, {
+  103 |         contentType: file.type,
+
+await isn't allowed in non-async function
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+[02:40:36.990] Browser ERROR   uncaughtError: Error: ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:100:29
+Parsing ecmascript source code failed
+   98 |     const fileName = `${Date.now()}.${fileExt}`;
+   99 |
+> 100 |     const { data, error } = await supabase.storage
+      |                             ^^^^^
+  101 |       .from("listingImages")
+  102 |       .upload(fileName, file, {
+  103 |         contentType: file.type,
+
+await isn't allowed in non-async function
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+
+[02:40:37.161] Browser ERROR   ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:100:29
+Parsing ecmascript source code failed
+   98 |     const fileName = `${Date.now()}.${fileExt}`;
+   99 |
+> 100 |     const { data, error } = await supabase.storage
+      |                             ^^^^^
+  101 |       .from("listingImages")
+  102 |       .upload(fileName, file, {
+  103 |         contentType: file.type,
+
+await isn't allowed in non-async function
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+[02:40:37.533] Browser ERROR   ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:100:29
+Parsing ecmascript source code failed
+   98 |     const fileName = `${Date.now()}.${fileExt}`;
+   99 |
+> 100 |     const { data, error } = await supabase.storage
+      |                             ^^^^^
+  101 |       .from("listingImages")
+  102 |       .upload(fileName, file, {
+  103 |         contentType: file.type,
+
+await isn't allowed in non-async function
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+[02:42:01.816] Browser ERROR   ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:100:29
+Parsing ecmascript source code failed
+   98 |     const fileName = `${Date.now()}.${fileExt}`;
+   99 |
+> 100 |     const { data, error } = await supabase.storage
+      |                             ^^^^^
+  101 |       .from("listingImages")
+  102 |       .upload(fileName, file, {
+  103 |         contentType: file.type,
+
+await isn't allowed in non-async function
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+[02:43:22.453] Server  LOG      ✓ Compiled in 43ms
+[02:43:23.011] Server  LOG     
+
+[Clerk]: You are running in keyless mode.
+You can claim your keys by visiting https://dashboard.clerk.com/apps/claim?token=xg4bah0hlu4rh8eey0hotaiczqirnd4ovvz8de4v&return_url=http%3A%2F%2Flocalhost%3A3000%2F
+
+[02:43:24.328] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:43:25.049] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[02:43:25.160] Browser LOG     Editing Listing ID: 6
+[02:43:25.505] Browser LOG     Editing Listing ID: 6
+[02:43:31.741] Browser LOG     {"0":{}}
+[02:43:35.268] Browser LOG     FINAL PAYLOAD: {"active":true,"area":null,"bathroom":null,"bedroom":null,"builtIn":null,"description":null,"hoa":null,"lotSize":null,"parking":null,"price":null,"propertyType":null,"type":null}
+[02:43:35.268] Browser LOG     LISTING ID: 6
+[02:48:01.427] Server  LOG      ✓ Compiled in 51ms
+[02:48:01.821] Browser ERROR   ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:273:2
+Parsing ecmascript source code failed
+  271 |     </div>
+  272 |   );
+> 273 | }
+      |  ^
+  274 |
+
+Expected '}', got '<eof>'
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+[02:48:21.818] Browser ERROR   ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx:273:2
+Parsing ecmascript source code failed
+  271 |     </div>
+  272 |   );
+> 273 | }
+      |  ^
+  274 |
+
+Expected '}', got '<eof>'
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component Browser]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Client Component SSR]
+    ./Desktop/Project/real-estate-app/app/(routes)/edit-listing/[id]/page.jsx [Server Component]
+[02:49:03.413] Browser LOG     FINAL PAYLOAD: {"active":true,"area":null,"bathroom":null,"bedroom":null,"builtIn":null,"description":null,"hoa":null,"lotSize":null,"parking":null,"price":null,"propertyType":null,"type":null}
+[02:49:03.413] Browser LOG     LISTING ID: 6
+[02:49:04.860] Browser LOG     SUPABASE RESPONSE: [] null
+[02:50:51.015] Server  LOG      ✓ Compiled in 461ms
+[02:50:56.539] Browser LOG     {"0":{}}
+[02:50:59.051] Browser LOG     FINAL PAYLOAD: {"active":true,"area":null,"bathroom":null,"bedroom":null,"builtIn":null,"description":null,"hoa":null,"lotSize":null,"parking":null,"price":null,"propertyType":null,"type":null}

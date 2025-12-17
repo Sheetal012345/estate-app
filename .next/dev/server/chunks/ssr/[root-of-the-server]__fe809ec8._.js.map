@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/HP/Desktop/Project/real-estate-app/app/%28routes%29/edit-listing/%5Bid%5D/page.jsx"],"sourcesContent":["export default function EditListing() {\r\n  return (\r\n    <div>\r\n      EditListing\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,6RAAC;kBAAI;;;;;;AAIT"}}]
+}

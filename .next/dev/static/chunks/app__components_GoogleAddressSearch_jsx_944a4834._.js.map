@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/hp/Desktop/project1/estate-app/app/_components/GoogleAddressSearch.jsx"],"sourcesContent":["\"use client\";\r\n\r\nimport { MapPin } from \"lucide-react\";\r\nimport GooglePlacesAutocomplete from \"react-google-places-autocomplete\";\r\n\r\nexport default function GoogleAddressSearch({ onSelect }) {\r\n  return (\r\n  <div className=\"flex items-center w-full\">\r\n    <MapPin className='h-10 w-10 p-2 rounded-l-lg text-purple-500 bg-purple-200'/>\r\n    <GooglePlacesAutocomplete\r\n      apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}\r\n      selectProps={{\r\n        placeholder: \"Search Property Address\",\r\n        onChange: (place) => onSelect?.(place),\r\n      }}\r\n\r\n    />\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;AAUc;;AARd;AACA;AAHA;;;;AAKe,SAAS,oBAAoB,EAAE,QAAQ,EAAE;IACtD,qBACA,6LAAC;QAAI,WAAU;;0BACb,6LAAC,uNAAM;gBAAC,WAAU;;;;;;0BAClB,6LAAC,+LAAwB;gBACvB,MAAM;gBACN,aAAa;oBACX,aAAa;oBACb,UAAU,CAAC,QAAU,WAAW;gBAClC;;;;;;;;;;;;AAKN;KAdwB"}}]
+}
