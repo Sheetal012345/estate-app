@@ -1,16 +1,5 @@
-[00:00:01.646] Server  WARN     ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
-[00:00:01.914] Server  LOG      ✓ Ready in 1435ms
-[00:00:05.129] Server  LOG      ○ Compiling /add-new-listing ...
-[00:00:07.321] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:08.958] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
-[00:00:25.088] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:25.246] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
-[00:00:47.963] Browser LOG     Inserted: [{"active":false,"address":"Phoenix Marketcity Kurla, Mumbai, India","coordinates":{"lat":19.0862777,"lng":72.88921534671162},"createdBy":null,"created_at":"2025-12-14T15:48:13.761373+00:00","id":9}]
-[00:00:50.134] Browser ERROR   {"code":"23505","details":null,"hint":null,"message":"duplicate key value violates unique constraint \"listing_address_key\""}
-[00:03:38.875] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:03:39.033] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
-[00:04:09.554] Browser ERROR   {"code":"23505","details":null,"hint":null,"message":"duplicate key value violates unique constraint \"listing_address_key\""}
-[00:04:40.878] Browser LOG     Inserted: [{"active":false,"address":"Andhari, , India","coordinates":{"lat":22.1494407,"lng":85.9069333},"createdBy":null,"created_at":"2025-12-14T15:52:06.805898+00:00","id":12}]
-[00:08:24.776] Browser ERROR   {"code":"23505","details":null,"hint":null,"message":"duplicate key value violates unique constraint \"listing_address_key\""}
-[00:08:28.991] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:29.188] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[00:00:02.762] Server  WARN     ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:00:03.177] Server  LOG      ✓ Ready in 2.4s
+[00:00:09.331] Server  LOG      ○ Compiling /_not-found/page ...
+[00:00:14.579] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:15.006] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
