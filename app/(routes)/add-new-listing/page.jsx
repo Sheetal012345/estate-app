@@ -7,7 +7,7 @@ import { useUser } from "@clerk/nextjs";
 import React, { useState } from "react";
 import { toast } from "sonner";
 import dynamic from "next/dynamic";
-
+import { useRouter } from "next/navigation";
 const LeafletMap = dynamic(
   () => import("@/app/_components/LeafletMap"),
   { ssr: false }
@@ -17,7 +17,7 @@ function AddNewListing() {
   const [selectedAddress, setSelecetedAddress] = useState(null);
   const [coordinates, setCoordinates] = useState(null);
   const { user } = useUser();
-
+  const router=useRouter();
   const nextHandler = async () => {
     // 🔒 HARD VALIDATION (NO LOCATION = NO INSERT)
     if (
@@ -48,6 +48,7 @@ function AddNewListing() {
     if (data) {
       toast("New Address added for listing");
       console.log("Inserted:", data);
+      router.replace('/edit-listing/'+data[0].id);
     }
 
     if (error) {

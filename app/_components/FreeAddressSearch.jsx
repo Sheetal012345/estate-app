@@ -35,12 +35,22 @@ function FreeAddressSearch({ selectedAddress, setCoordinates }) {
 
     const fullAddress = `${name}, ${city}, ${country}`;
 
+  console.log("FULL ADDRESS:", fullAddress);
+  console.log("LAT:", lat);
+  console.log("LNG:", lng);
+  console.log("RAW PLACE OBJECT:", place);
+
     setQuery(fullAddress);
     setSuggestions([]);
 
     // ✅ THESE ARE PROPS (NOW DEFINED)
-    selectedAddress(fullAddress);
+    selectedAddress?.(fullAddress);
     setCoordinates({ lat, lng });
+    setCoordinates({
+  lat: 19.075983,
+  lng: 72.877655,
+});
+
   };
 
   return (

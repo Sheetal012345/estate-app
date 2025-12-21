@@ -30,13 +30,13 @@ export default function RootLayout({ children }) {
           <Header /> 
 
           {/* MAIN CONTENT */}
-          <div className="pt-24"> 
+          <main className="pt-26"> 
             <Provider>
               <Toaster richColors position="top-right" />
 
               {children}
             </Provider>
-          </div>
+          </main>
 
         </body>
       </html>

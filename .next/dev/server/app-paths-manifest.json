@@ -1,4 +1,4 @@
 {
-  "/(routes)/add-new-listing/page": "app/(routes)/add-new-listing/page.js",
-  "/_not-found/page": "app/_not-found/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/page": "app/page.js"
 }
