@@ -35,12 +35,22 @@ function FreeAddressSearch({ selectedAddress, setCoordinates }) {
 
     const fullAddress = `${name}, ${city}, ${country}`;
 
+  console.log("FULL ADDRESS:", fullAddress);
+  console.log("LAT:", lat);
+  console.log("LNG:", lng);
+  console.log("RAW PLACE OBJECT:", place);
+
     setQuery(fullAddress);
     setSuggestions([]);
 
     // ✅ THESE ARE PROPS (NOW DEFINED)
-    selectedAddress(fullAddress);
+    selectedAddress?.(fullAddress);
     setCoordinates({ lat, lng });
+//     setCoordinates({
+//   lat: 19.075983,
+//   lng: 72.877655,
+// });
+
   };
 
   return (
@@ -53,7 +63,7 @@ function FreeAddressSearch({ selectedAddress, setCoordinates }) {
       />
 
       {suggestions.length > 0 && (
-        <div className="absolute z-10 bg-white border w-full rounded-md shadow">
+        <div className="absolute z-[10000] bg-white border w-full rounded-md shadow">
           {suggestions.map((place, index) => (
             <div
               key={index}

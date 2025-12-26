@@ -4,11 +4,11 @@
     "/": {
       "files": [
         "server/edge/chunks/Desktop_Project_real-estate-app_b2a81315._.js",
-        "server/edge/chunks/2545d_@clerk_backend_dist_45f85fd6._.js",
+        "server/edge/chunks/2545d_@clerk_backend_dist_9249fa8c._.js",
         "server/edge/chunks/2545d_@clerk_nextjs_dist_esm_908b7e64._.js",
-        "server/edge/chunks/2545d_0d9f7b3b._.js",
+        "server/edge/chunks/2545d_a4153056._.js",
         "server/edge/chunks/[root-of-the-server]__4479baf3._.js",
-        "server/edge/chunks/turbopack-Desktop_Project_real-estate-app_edge-wrapper_6596b879.js"
+        "server/edge/chunks/turbopack-Desktop_Project_real-estate-app_edge-wrapper_ee4f4b6e.js"
       ],
       "name": "middleware",
       "page": "/",
@@ -30,10 +30,10 @@
       "assets": [],
       "env": {
         "__NEXT_BUILD_ID": "development",
-        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "boQFqqtwDy2xSfN2XzxJ22XK4l/IBeue131EPAq6zk8=",
-        "__NEXT_PREVIEW_MODE_ID": "3a392d5676869e0f9bf29b91cc273f63",
-        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "7783adf0d1ee7c8c61289f9e48caa899de16f56226111f84f23aadb33263324b",
-        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "64453b664d548618fad911fe3e98d1d3e6f57f657372e8b33c24fc53822d2bce"
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "+7QSDJ3kLid6CbTrejhlLa8tVC2lNuRAYk06z+07J3s=",
+        "__NEXT_PREVIEW_MODE_ID": "ccea9d695ce34abacdb4b8d238d6ff26",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "5b5af0bd3b2a71a378515a324d3dcd44d205d84338f55944941eab7e738707de",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "1c67b357ec4a9ec15806fe0ea69c2cb92c079f95b7c2701cf5bd58a6e55b7f8f"
       }
     }
   },

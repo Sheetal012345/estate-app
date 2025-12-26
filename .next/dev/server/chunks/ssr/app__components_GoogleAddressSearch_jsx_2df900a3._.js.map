@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/hp/Desktop/project1/estate-app/app/_components/GoogleAddressSearch.jsx"],"sourcesContent":["\"use client\";\r\n\r\nimport React from \"react\";\r\nimport GooglePlacesAutocomplete from \"react-google-places-autocomplete\";\r\n\r\nfunction GoogleAddressSearch() {\r\n  return (\r\n    <div>\r\n      <GooglePlacesAutocomplete\r\n        apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}\r\n        selectProps={{\r\n          placeholder: \"Search address\",\r\n        }}\r\n      />\r\n    </div>\r\n  );\r\n}\r\n\r\nexport default GoogleAddressSearch;\r\n"],"names":[],"mappings":";;;;;AAEA;AACA;AAHA;;;;AAKA,SAAS;IACP,qBACE,8OAAC;kBACC,cAAA,8OAAC,4LAAwB;YACvB,MAAM;YACN,aAAa;gBACX,aAAa;YACf;;;;;;;;;;;AAIR;uCAEe"}}]
-}
