@@ -74,6 +74,7 @@ export default function ListingMapView({ type }) {
       {/* RIGHT: MAP */}
       <div className="h-[calc(100vh-140px)] w-full md:sticky md:top-[140px]">
         <LeafletMapSection
+          listin={listing}
           coordinates={coordinates}
           listing={listing}  
         />

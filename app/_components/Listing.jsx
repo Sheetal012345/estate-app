@@ -26,7 +26,7 @@ function Listing({
   setCoordinates, // ✅ comes from parent
 }) {
   const [address, setAddress] = useState();
-
+  console.log(listing)
   return (
     <div>
 
@@ -72,60 +72,59 @@ function Listing({
 
       {/* 🏠 Listing Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 px-3">
-        {listing?.length > 0
-          ? listing.map((item) => (
-              <Link
-                key={item.id}
-                href={`/view-listing/${item.id}`}
-              >
-                <div className="p-3 hover:border hover:border-primary rounded-lg cursor-pointer">
-                  {/* <Image
-                    src={item?.listingImages?.[0]?.url}
-                    alt="listing"
-                    width={400}
-                    height={300}
-                    className="rounded-lg object-cover h-[180px] w-full"
-                  /> */}
+        {listing?.length > 0 ? (
+          listing.map((item) => (
+            <Link
+              key={item.id}
+              href={'/view-listing/' + item.id}
+              className="block"
+            >
+              <div className="p-3 hover:border hover:border-primary rounded-1g cursor-pointer">
 
-                  <div className="flex mt-2 flex-col gap-2">
-                    <h2 className="font-bold text-xl text-blue-600">
-                      ₹{item.price}
-                    </h2>
+                <img
+  src={item?.listingImages?.[0]?.url}
+  className="rounded-lg h-[180px] w-full object-cover"
+/>
+                </div>
+                <div className="flex mt-2 flex-col gap-2">
+                  <h2 className="font-bold text-xl text-blue-600">
+                    ₹{item.price}
+                  </h2>
 
-                    <div className="flex gap-2 items-center text-sm text-gray-500">
-                      <MapPin className="h-4 w-4" />
-                      <span>{item.address}</span>
-                    </div>
+                  <div className="flex gap-2 items-center text-sm text-gray-500">
+                    <MapPin className="h-4 w-4" />
+                    <span>{item.address}</span>
+                  </div>
 
-                    <div className="flex gap-2 justify-between mt-2">
-                      <span className="flex gap-2 items-center text-xs bg-slate-200 rounded-md px-2 py-1">
-                        <BedDouble className="h-4 w-4" />
-                        {item.bedroom}
-                      </span>
+                  <div className="flex gap-2 justify-between mt-2">
+                    <span className="flex gap-2 items-center text-xs bg-slate-200 rounded-md px-2 py-1">
+                      <BedDouble className="h-4 w-4" />
+                      {item.bedroom}
+                    </span>
 
-                      <span className="flex gap-2 items-center text-xs bg-slate-200 rounded-md px-2 py-1">
-                        <Bath className="h-4 w-4" />
-                        {item.bathroom}
-                      </span>
+                    <span className="flex gap-2 items-center text-xs bg-slate-200 rounded-md px-2 py-1">
+                      <Bath className="h-4 w-4" />
+                      {item.bathroom}
+                    </span>
 
-                      <span className="flex gap-2 items-center text-xs bg-slate-200 rounded-md px-2 py-1">
-                        <Ruler className="h-4 w-4" />
-                        {item.area}
-                      </span>
-                    </div>
+                    <span className="flex gap-2 items-center text-xs bg-slate-200 rounded-md px-2 py-1">
+                      <Ruler className="h-4 w-4" />
+                      {item.area}
+                    </span>
                   </div>
                 </div>
-              </Link>
-            ))
-          : [1, 2, 3, 4, 5, 6, 7, 8].map((_, index) => (
-              <div
-                key={index}
-                className="h-[230px] w-full bg-slate-200 animate-pulse rounded-lg"
-              />
-            ))}
-      </div>
-    </div>
-  );
-}
 
+            </Link>
+          ))
+        ) : (
+          [1, 2, 3, 4, 5, 6, 7, 8].map((_, index) => (
+            <div
+              key={index}
+              className="h-[230px] w-full bg-slate-200 animate-pulse rounded-lg"
+            />
+          ))
+        )}
+      </div>
+    </div>);
+}
 export default Listing;

@@ -4,8 +4,9 @@ import { useState, useEffect } from "react";
 import { MapContainer, TileLayer, Marker, useMap } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import "@/lib/leafletIconFix";
+import MarkerItem from "./Markeritem";
 
-function MapController({ coordinates }) {
+function MapController({ coordinates,listing }) {
   const map = useMap();
 
   useEffect(() => {
@@ -28,6 +29,7 @@ export default function LeafletMapSection({ coordinates, listing = [] }) {
       center={[center.lat, center.lng]}
       zoom={6}
       className="w-full h-full"
+      gesturesHandling="greedy"
     >
       <TileLayer
         attribution="&copy; OpenStreetMap contributors"
@@ -45,6 +47,13 @@ export default function LeafletMapSection({ coordinates, listing = [] }) {
             />
           )
       )}
+      {listing.map((item,index)=>(
+        <MarkerItem
+        key={index}
+        item={item}
+        
+        />
+      ))}
     </MapContainer>
   );
 }

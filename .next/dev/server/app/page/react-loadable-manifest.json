@@ -1,11 +1,18 @@
 {
-  "[project]/app/_components/LeafletMapSection.jsx [app-client] (ecmascript, next/dynamic entry)": {
-    "id": "[project]/app/_components/LeafletMapSection.jsx [app-client] (ecmascript, next/dynamic entry)",
+  "[project]/Desktop/Project/real-estate-app/app/_components/LeafletMapSection.jsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/Desktop/Project/real-estate-app/app/_components/LeafletMapSection.jsx [app-client] (ecmascript, next/dynamic entry)",
     "files": [
+<<<<<<< HEAD
       "static/chunks/node_modules_34619a67._.js",
       "static/chunks/_6d9f95df._.js",
       "static/chunks/node_modules_leaflet_dist_leaflet_ef5f0413.css",
       "static/chunks/app__components_LeafletMapSection_jsx_1c2186d1._.js"
+=======
+      "static/chunks/2545d_6153e41c._.js",
+      "static/chunks/Desktop_Project_real-estate-app_d2714994._.js",
+      "static/chunks/2545d_leaflet_dist_leaflet_761b1fa1.css",
+      "static/chunks/Desktop_Project_real-estate-app_app__components_LeafletMapSection_jsx_ebf77278._.js"
+>>>>>>> e2220b92b125ba51b464bb69d2230b6ec55c11d7
     ]
   }
 }

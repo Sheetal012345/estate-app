@@ -135,8 +135,14 @@ body {
     @apply bg-background text-foreground;
   }
 }
+<<<<<<< HEAD
 
 .leaflet-container img {
   max-width: none !important;
 }
 
+=======
+.cl-internal-fqc41u {
+  box-shadow: none;
+}
+>>>>>>> e2220b92b125ba51b464bb69d2230b6ec55c11d7

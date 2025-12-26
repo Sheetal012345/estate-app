@@ -169,24 +169,24 @@ return (
     </h2>
 
     <Formik
-  enableReinitialize
-  initialValues={{
-    type: listing?.type ?? "",
-    propertyType: listing?.propertyType ?? "",
-    bedroom: listing?.bedroom ?? "",
-    bathroom: listing?.bathroom ?? "",
-    builtIn: listing?.builtIn ?? "",
-    parking: listing?.parking ?? "",
-    lotSize: listing?.lotSize ?? "",
-    area: listing?.area ?? "",
-    price: listing?.price ?? "",
-    hoa: listing?.hoa ?? "",
-    description: listing?.description ?? "",
-  }}
-  onSubmit={onSubmitHandler}
->
-
-      {({ handleSubmit, handleChange, values,setFieldValue }) => (
+      initialValues={{
+        type: "",
+        propertyType: "",
+        bedroom: "",
+        bathroom: "",
+        builtIn: "",
+        parking: "",
+        lotSize: "",
+        area: "",
+        price: "",
+        hoa: "",
+        description: "",
+        profileImage: user?.imageUrl,
+        fullName: user?.fullName,
+      }}
+      onSubmit={onSubmitHandler}
+    >
+      {({ handleSubmit, handleChange, values ,setFieldValue}) => (
         <form onSubmit={handleSubmit}>
           <div className="p-8 rounded-lg shadow-md bg-white">
 
@@ -307,14 +307,14 @@ return (
                </div>
               <div className="flex justify-end gap-4 mt-8">
                 
-                 <Button disabled={loading} variant="outline" className="bg-purple-600 text-white">
+                 <Button disabled={loading} variant="outline" className="bg-blue-600 text-white">
                   {loading?<Loader className="animate-spin"/>:'Save   '}
                 </Button>
                
                 
                <AlertDialog>
   <AlertDialogTrigger asChild>
-    <Button type='button' disabled={loading} className="bg-purple-600 text-white">
+    <Button type='button' disabled={loading} className="bg-blue-600 text-white">
                   {loading?<Loader className="animate-spin"/>:'Save & Publish '}
                 </Button>
                 </AlertDialogTrigger>
