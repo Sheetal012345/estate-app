@@ -135,3 +135,8 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+.leaflet-container img {
+  max-width: none !important;
+}
+

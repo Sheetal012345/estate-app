@@ -51,6 +51,10 @@ function FreeAddressSearch({ selectedAddress, setCoordinates }) {
             lat,
             lng
         });
+    //     setCoordinates({
+    //   lat: 19.075983,
+    //   lng: 72.877655,
+    // });
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "relative w-full",
@@ -62,11 +66,11 @@ function FreeAddressSearch({ selectedAddress, setCoordinates }) {
                 className: "w-full border rounded-md p-2"
             }, void 0, false, {
                 fileName: "[project]/app/_components/FreeAddressSearch.jsx",
-                lineNumber: 53,
+                lineNumber: 58,
                 columnNumber: 7
             }, this),
             suggestions.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute z-10 bg-white border w-full rounded-md shadow",
+                className: "absolute z-[10000] bg-white border w-full rounded-md shadow",
                 children: suggestions.map((place, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         onClick: ()=>handleSelect(place),
                         className: "p-2 cursor-pointer hover:bg-gray-100",
@@ -81,18 +85,18 @@ function FreeAddressSearch({ selectedAddress, setCoordinates }) {
                         ]
                     }, index, true, {
                         fileName: "[project]/app/_components/FreeAddressSearch.jsx",
-                        lineNumber: 63,
+                        lineNumber: 68,
                         columnNumber: 13
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/app/_components/FreeAddressSearch.jsx",
-                lineNumber: 61,
+                lineNumber: 66,
                 columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/_components/FreeAddressSearch.jsx",
-        lineNumber: 52,
+        lineNumber: 57,
         columnNumber: 5
     }, this);
 }

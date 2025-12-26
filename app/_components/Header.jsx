@@ -13,7 +13,7 @@ function Header() {
   const navItems = [
     { label: "For Sale", href: "/" },
     { label: "For Rent", href: "/rent" },
-    { label: "Agent Finder", href: "/agents" },
+    
   ];
 
   return (

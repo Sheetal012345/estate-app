@@ -169,24 +169,24 @@ return (
     </h2>
 
     <Formik
-      initialValues={{
-        type: "",
-        propertyType: "",
-        bedroom: "",
-        bathroom: "",
-        builtIn: "",
-        parking: "",
-        lotSize: "",
-        area: "",
-        price: "",
-        hoa: "",
-        description: "",
-        profileImage: user?.imageUrl,
-        fullName: user?.fullName,
-      }}
-      onSubmit={onSubmitHandler}
-    >
-      {({ handleSubmit, handleChange, values }) => (
+  enableReinitialize
+  initialValues={{
+    type: listing?.type ?? "",
+    propertyType: listing?.propertyType ?? "",
+    bedroom: listing?.bedroom ?? "",
+    bathroom: listing?.bathroom ?? "",
+    builtIn: listing?.builtIn ?? "",
+    parking: listing?.parking ?? "",
+    lotSize: listing?.lotSize ?? "",
+    area: listing?.area ?? "",
+    price: listing?.price ?? "",
+    hoa: listing?.hoa ?? "",
+    description: listing?.description ?? "",
+  }}
+  onSubmit={onSubmitHandler}
+>
+
+      {({ handleSubmit, handleChange, values,setFieldValue }) => (
         <form onSubmit={handleSubmit}>
           <div className="p-8 rounded-lg shadow-md bg-white">
 

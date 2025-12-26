@@ -46,10 +46,10 @@ function FreeAddressSearch({ selectedAddress, setCoordinates }) {
     // ✅ THESE ARE PROPS (NOW DEFINED)
     selectedAddress?.(fullAddress);
     setCoordinates({ lat, lng });
-    setCoordinates({
-  lat: 19.075983,
-  lng: 72.877655,
-});
+//     setCoordinates({
+//   lat: 19.075983,
+//   lng: 72.877655,
+// });
 
   };
 
@@ -63,7 +63,7 @@ function FreeAddressSearch({ selectedAddress, setCoordinates }) {
       />
 
       {suggestions.length > 0 && (
-        <div className="absolute z-10 bg-white border w-full rounded-md shadow">
+        <div className="absolute z-[10000] bg-white border w-full rounded-md shadow">
           {suggestions.map((place, index) => (
             <div
               key={index}

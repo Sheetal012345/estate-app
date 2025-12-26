@@ -882,23 +882,22 @@ function EditListing({ params }) {
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$formik$2f$dist$2f$formik$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Formik"], {
+                enableReinitialize: true,
                 initialValues: {
-                    type: "",
-                    propertyType: "",
-                    bedroom: "",
-                    bathroom: "",
-                    builtIn: "",
-                    parking: "",
-                    lotSize: "",
-                    area: "",
-                    price: "",
-                    hoa: "",
-                    description: "",
-                    profileImage: user?.imageUrl,
-                    fullName: user?.fullName
+                    type: listing?.type ?? "",
+                    propertyType: listing?.propertyType ?? "",
+                    bedroom: listing?.bedroom ?? "",
+                    bathroom: listing?.bathroom ?? "",
+                    builtIn: listing?.builtIn ?? "",
+                    parking: listing?.parking ?? "",
+                    lotSize: listing?.lotSize ?? "",
+                    area: listing?.area ?? "",
+                    price: listing?.price ?? "",
+                    hoa: listing?.hoa ?? "",
+                    description: listing?.description ?? ""
                 },
                 onSubmit: onSubmitHandler,
-                children: ({ handleSubmit, handleChange, values })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
+                children: ({ handleSubmit, handleChange, values, setFieldValue })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
                         onSubmit: handleSubmit,
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "p-8 rounded-lg shadow-md bg-white",
