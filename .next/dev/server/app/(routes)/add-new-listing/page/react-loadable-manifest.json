@@ -1,17 +1,14 @@
 {
-  "[project]/Desktop/Project/real-estate-app/app/_components/LeafletMap.jsx [app-client] (ecmascript, next/dynamic entry)": {
-    "id": "[project]/Desktop/Project/real-estate-app/app/_components/LeafletMap.jsx [app-client] (ecmascript, next/dynamic entry)",
+  "[project]/app/_components/LeafletMapSection.jsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/app/_components/LeafletMapSection.jsx [app-client] (ecmascript, next/dynamic entry)",
     "files": [
-<<<<<<< HEAD
-      "static/chunks/node_modules_34619a67._.js",
-      "static/chunks/app__components_LeafletMap_jsx_49bf2b17._.js",
       "static/chunks/node_modules_leaflet_dist_leaflet_ef5f0413.css",
-      "static/chunks/app__components_LeafletMap_jsx_cc65c055._.js"
-=======
-      "static/chunks/2545d_e9d1cfad._.js",
-      "static/chunks/Desktop_Project_real-estate-app_app__components_LeafletMap_jsx_d46360cd._.js",
-      "static/chunks/Desktop_Project_real-estate-app_app__components_LeafletMap_jsx_9d63389c._.js"
->>>>>>> e2220b92b125ba51b464bb69d2230b6ec55c11d7
+      "static/chunks/node_modules_react-leaflet_lib_index_46c64ed8.js",
+      "static/chunks/node_modules_03837b23._.js",
+      "static/chunks/_a62dc845._.js",
+      "static/chunks/app__components_LeafletMapSection_jsx_63770790._.js",
+      "static/chunks/node_modules_react-leaflet_lib_index_d4b48560.js",
+      "static/chunks/node_modules_react-leaflet_lib_index_e1a6968f.js"
     ]
   }
 }

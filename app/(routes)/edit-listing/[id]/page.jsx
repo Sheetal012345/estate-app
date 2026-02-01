@@ -86,6 +86,62 @@ export default function EditListing({ params }) {
 
 // ✅ FINAL FIXED SUBMIT HANDLER
 const onSubmitHandler = async (values) => {
+  // 🔴 REQUIRED FIELDS
+  if (!values.type) {
+    alert("Please select listing type");
+    return;
+  }
+
+  if (!values.propertyType) {
+    alert("Please select property type");
+    return;
+  }
+  const price = values.price?.toString().trim();
+
+if (!price || !/^\d+(\.\d+)?$/.test(price)) {
+  alert("Please enter a valid numeric price");
+  return;
+}
+
+if (Number(price) <= 0) {
+  alert("Price must be greater than 0");
+  return;
+}
+
+
+  // if (!values.price || Number(values.price) <= 0) {
+  //   alert("Please enter a valid price");
+  //   return;
+  // }
+
+  if (!values.contactNumber) {
+    alert("Please enter contact number");
+    return;
+  }
+
+  // 🔴 CONTACT NUMBER VALIDATION
+  const contact = String(values.contactNumber);
+  if (!/^\d{10}$/.test(contact)) {
+    alert("Contact number must be 10 digits");
+    return;
+  }
+
+  // 🔴 OPTIONAL NUMERIC VALIDATION
+  if (values.bedroom && Number(values.bedroom) < 0) {
+    alert("Bedroom count cannot be negative");
+    return;
+  }
+
+  if (values.bathroom && Number(values.bathroom) < 0) {
+    alert("Bathroom count cannot be negative");
+    return;
+  }
+
+  if (values.area && Number(values.area) <= 0) {
+    alert("Area must be greater than 0");
+    return;
+  }
+
   setLoading(true);
 
   const payload = {
@@ -98,7 +154,7 @@ const onSubmitHandler = async (values) => {
     lotSize: values.lotSize !== "" ? Number(values.lotSize) : null,
     area: values.area !== "" ? Number(values.area) : null,
     price: values.price !== "" ? Number(values.price) : null,
-    hoa: values.hoa !== "" ? Number(values.hoa) : null,
+    contactNumber: values.contactNumber !== "" ? Number(values.contactNumber) : null,
     description: values.description || null,
     active: true,
   };
@@ -179,7 +235,7 @@ return (
         lotSize: "",
         area: "",
         price: "",
-        hoa: "",
+        contactNumber: "",
         description: "",
         profileImage: user?.imageUrl,
         fullName: user?.fullName,
@@ -223,14 +279,14 @@ return (
                       <SelectValue placeholder={listing?.propertyType?listing?.propertyType:"Select Property Type"} />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="Single Family House">
-                        Single Family House
+                      <SelectItem value="1 RK">
+                        1 RK
                       </SelectItem>
-                      <SelectItem value="Town House">
-                        Town House
+                      <SelectItem value="1 BHK">
+                         1 BHK
                       </SelectItem>
-                      <SelectItem value="Condo">
-                        Condo
+                      <SelectItem value="2 BHK">
+                        2 BHK
                       </SelectItem>
                     </SelectContent>
                   </Select>
@@ -286,8 +342,8 @@ return (
                 </div>
 
                 <div>
-                  <Label>HOA</Label>
-                  <Input name="hoa" value={values.hoa||listing?.hoa||"" } onChange={handleChange}
+                  <Label>Contact Number</Label>
+                  <Input name="contactNumber" value={values.contactNumber||listing?.contactNumber||"" } onChange={handleChange}
                    />
                 </div>
               </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from "next/image"
 import {
   Carousel,
   CarouselContent,
@@ -7,30 +8,35 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel"
 
-function slider({imageList}) {
-    console.log(imageList)
+function Slider({ imageList }) {
+  console.log(imageList)
+
   return (
-    <div className='mt-5'>
-        {imageList? <Carousel>
-  <CarouselContent>
-    {imageList.map((item,index)=>(
-        <CarouselItem>
-           <Image src={item.url} width={800} height={300} 
-           alt='image' classname='rounded-xl object-cover h-[360px] w-full'/>
-        </CarouselItem>
-    ))}
-   
-    <CarouselItem>...</CarouselItem>
-    <CarouselItem>...</CarouselItem>
-  </CarouselContent>
-  <CarouselPrevious />
-  <CarouselNext />
-</Carousel>
-:<div className='w-full h-[200px] bg-slate-200 animate-pulse rounded-lg' >
- 
-</div>}
-</div>
+    <div className="mt-5">
+      {imageList ? (
+        <Carousel>
+          <CarouselContent>
+            {imageList.map((item, index) => (
+              <CarouselItem key={index}>
+                <Image
+                  src={item.url}
+                  width={1400}
+                  height={700}
+                  alt="image"
+                  className="w-full h-[420px] md:h-[520px] object-cover rounded-none md:rounded-xl"
+                />
+              </CarouselItem>
+            ))}
+          </CarouselContent>
+
+          <CarouselPrevious />
+          <CarouselNext />
+        </Carousel>
+      ) : (
+        <div className="w-full h-[200px] bg-slate-200 animate-pulse rounded-lg" />
+      )}
+    </div>
   )
 }
 
-export default slider
+export default Slider

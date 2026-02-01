@@ -40,10 +40,18 @@ function Listing({
           setCoordinates={setCoordinates}
         />
 
-        <Button className="flex gap-2" onClick={handleSearchClick}>
-          <Search className="h-4 w-4" />
+          <Button
+  onClick={handleSearchClick}
+  className="flex gap-2 bg-blue-600 hover:bg-blue-700 text-white"
+>
+  <Search className="h-4 w-4" />
+  Search
+</Button>
+
+        {/* <Button className="flex gap-2" onClick={handleSearchClick}>
+          <Search className="h-4 w-4  bg-blue-600 hover:bg-blue-700 text-white" />
           Search
-        </Button>
+        </Button> */}
       </div>
 
       {/* 🎛 Filters */}
@@ -93,7 +101,7 @@ function Listing({
 
                   <div className="flex gap-2 items-center text-sm text-gray-500">
                     <MapPin className="h-4 w-4" />
-                    <span>{item.address}</span>
+                    <span>{item.address}</span>{item.type}
                   </div>
 
                   <div className="flex gap-2 justify-between mt-2">

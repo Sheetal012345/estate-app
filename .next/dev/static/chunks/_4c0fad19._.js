@@ -421,7 +421,7 @@ __turbopack_context__.s([
     ()=>__TURBOPACK__default__export__
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)"); // ✅ useState added
 ;
 var _s = __turbopack_context__.k.signature();
 "use client";
@@ -430,25 +430,12 @@ function FileUpload({ setImages }) {
     _s();
     const [imagePreview, setImagePreview] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
     const handleFileUpload = (event)=>{
-        const files = Array.from(event.target.files);
-        setImages(files); // send files to parent
-        const previews = files.map((file)=>URL.createObjectURL(file));
+        const files = event.target.files;
+        console.log(files);
+        setImages(files);
+        const previews = Array.from(files).map((file)=>URL.createObjectURL(file));
         setImagePreview(previews);
     };
-    // cleanup object URLs (IMPORTANT)
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
-        "FileUpload.useEffect": ()=>{
-            return ({
-                "FileUpload.useEffect": ()=>{
-                    imagePreview.forEach({
-                        "FileUpload.useEffect": (url)=>URL.revokeObjectURL(url)
-                    }["FileUpload.useEffect"]);
-                }
-            })["FileUpload.useEffect"];
-        }
-    }["FileUpload.useEffect"], [
-        imagePreview
-    ]);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -464,6 +451,8 @@ function FileUpload({ setImages }) {
                                     className: "w-8 h-8 mb-4",
                                     "aria-hidden": "true",
                                     xmlns: "http://www.w3.org/2000/svg",
+                                    width: "24",
+                                    height: "24",
                                     fill: "none",
                                     viewBox: "0 0 24 24",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -474,12 +463,12 @@ function FileUpload({ setImages }) {
                                         d: "M15 17h3a3 3 0 0 0 0-6h-.025a5.56 5.56 0 0 0 .025-.5A5.5 5.5 0 0 0 7.207 9.021C7.137 9.017 7.071 9 7 9a4 4 0 1 0 0 8h2.167M12 19v-9m0 0-2 2m2-2 2 2"
                                     }, void 0, false, {
                                         fileName: "[project]/app/(routes)/edit-listing/_components/FileUpload.jsx",
-                                        lineNumber: 41,
+                                        lineNumber: 35,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/(routes)/edit-listing/_components/FileUpload.jsx",
-                                    lineNumber: 34,
+                                    lineNumber: 26,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -490,28 +479,28 @@ function FileUpload({ setImages }) {
                                             children: "Click to upload"
                                         }, void 0, false, {
                                             fileName: "[project]/app/(routes)/edit-listing/_components/FileUpload.jsx",
-                                            lineNumber: 51,
+                                            lineNumber: 45,
                                             columnNumber: 15
                                         }, this),
                                         " or drag and drop"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/(routes)/edit-listing/_components/FileUpload.jsx",
-                                    lineNumber: 50,
+                                    lineNumber: 44,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-xs",
-                                    children: "PNG, JPG, GIF (MAX. 800x400px)"
+                                    children: "SVG, PNG, JPG or GIF (MAX. 800x400px)"
                                 }, void 0, false, {
                                     fileName: "[project]/app/(routes)/edit-listing/_components/FileUpload.jsx",
-                                    lineNumber: 54,
+                                    lineNumber: 48,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/(routes)/edit-listing/_components/FileUpload.jsx",
-                            lineNumber: 33,
+                            lineNumber: 25,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -523,18 +512,18 @@ function FileUpload({ setImages }) {
                             accept: "image/png,image/gif,image/jpeg"
                         }, void 0, false, {
                             fileName: "[project]/app/(routes)/edit-listing/_components/FileUpload.jsx",
-                            lineNumber: 59,
+                            lineNumber: 53,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/(routes)/edit-listing/_components/FileUpload.jsx",
-                    lineNumber: 29,
+                    lineNumber: 21,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/(routes)/edit-listing/_components/FileUpload.jsx",
-                lineNumber: 28,
+                lineNumber: 20,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -542,31 +531,33 @@ function FileUpload({ setImages }) {
                 children: imagePreview.map((image, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                             src: image,
-                            alt: "preview",
-                            className: "rounded-lg object-cover h-[100px] w-[100px]"
+                            width: 100,
+                            height: 100,
+                            className: "rounded-lg object-cover h-[100px] w=[100px]",
+                            alt: "image"
                         }, void 0, false, {
                             fileName: "[project]/app/(routes)/edit-listing/_components/FileUpload.jsx",
-                            lineNumber: 73,
+                            lineNumber: 67,
                             columnNumber: 13
                         }, this)
                     }, index, false, {
                         fileName: "[project]/app/(routes)/edit-listing/_components/FileUpload.jsx",
-                        lineNumber: 72,
+                        lineNumber: 66,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/app/(routes)/edit-listing/_components/FileUpload.jsx",
-                lineNumber: 70,
+                lineNumber: 64,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/(routes)/edit-listing/_components/FileUpload.jsx",
-        lineNumber: 27,
+        lineNumber: 19,
         columnNumber: 5
     }, this);
 }
-_s(FileUpload, "oCL0auiEBPipgtorF0Onrf120kM=");
+_s(FileUpload, "GZ4fIDXGwnvoB8NC6ENNa2qxYyU=");
 _c = FileUpload;
 const __TURBOPACK__default__export__ = FileUpload;
 var _c;
@@ -816,6 +807,51 @@ function EditListing({ params }) {
     };
     // ✅ FINAL FIXED SUBMIT HANDLER
     const onSubmitHandler = async (values)=>{
+        // 🔴 REQUIRED FIELDS
+        if (!values.type) {
+            alert("Please select listing type");
+            return;
+        }
+        if (!values.propertyType) {
+            alert("Please select property type");
+            return;
+        }
+        const price = values.price?.toString().trim();
+        if (!price || !/^\d+(\.\d+)?$/.test(price)) {
+            alert("Please enter a valid numeric price");
+            return;
+        }
+        if (Number(price) <= 0) {
+            alert("Price must be greater than 0");
+            return;
+        }
+        // if (!values.price || Number(values.price) <= 0) {
+        //   alert("Please enter a valid price");
+        //   return;
+        // }
+        if (!values.contactNumber) {
+            alert("Please enter contact number");
+            return;
+        }
+        // 🔴 CONTACT NUMBER VALIDATION
+        const contact = String(values.contactNumber);
+        if (!/^\d{10}$/.test(contact)) {
+            alert("Contact number must be 10 digits");
+            return;
+        }
+        // 🔴 OPTIONAL NUMERIC VALIDATION
+        if (values.bedroom && Number(values.bedroom) < 0) {
+            alert("Bedroom count cannot be negative");
+            return;
+        }
+        if (values.bathroom && Number(values.bathroom) < 0) {
+            alert("Bathroom count cannot be negative");
+            return;
+        }
+        if (values.area && Number(values.area) <= 0) {
+            alert("Area must be greater than 0");
+            return;
+        }
         setLoading(true);
         const payload = {
             type: values.type || null,
@@ -827,7 +863,7 @@ function EditListing({ params }) {
             lotSize: values.lotSize !== "" ? Number(values.lotSize) : null,
             area: values.area !== "" ? Number(values.area) : null,
             price: values.price !== "" ? Number(values.price) : null,
-            hoa: values.hoa !== "" ? Number(values.hoa) : null,
+            contactNumber: values.contactNumber !== "" ? Number(values.contactNumber) : null,
             description: values.description || null,
             active: true
         };
@@ -878,23 +914,24 @@ function EditListing({ params }) {
                 children: "Enter some more details about your listing"
             }, void 0, false, {
                 fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                lineNumber: 167,
+                lineNumber: 223,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$formik$2f$dist$2f$formik$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Formik"], {
-                enableReinitialize: true,
                 initialValues: {
-                    type: listing?.type ?? "",
-                    propertyType: listing?.propertyType ?? "",
-                    bedroom: listing?.bedroom ?? "",
-                    bathroom: listing?.bathroom ?? "",
-                    builtIn: listing?.builtIn ?? "",
-                    parking: listing?.parking ?? "",
-                    lotSize: listing?.lotSize ?? "",
-                    area: listing?.area ?? "",
-                    price: listing?.price ?? "",
-                    hoa: listing?.hoa ?? "",
-                    description: listing?.description ?? ""
+                    type: "",
+                    propertyType: "",
+                    bedroom: "",
+                    bathroom: "",
+                    builtIn: "",
+                    parking: "",
+                    lotSize: "",
+                    area: "",
+                    price: "",
+                    contactNumber: "",
+                    description: "",
+                    profileImage: user?.imageUrl,
+                    fullName: user?.fullName
                 },
                 onSubmit: onSubmitHandler,
                 children: ({ handleSubmit, handleChange, values, setFieldValue })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -911,7 +948,7 @@ function EditListing({ params }) {
                                                     children: "Do you want to Rent or Sell?"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                    lineNumber: 199,
+                                                    lineNumber: 255,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$radio$2d$group$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["RadioGroup"], {
@@ -927,7 +964,7 @@ function EditListing({ params }) {
                                                                     id: "Sell"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                                    lineNumber: 205,
+                                                                    lineNumber: 261,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$label$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Label"], {
@@ -935,13 +972,13 @@ function EditListing({ params }) {
                                                                     children: "Sell"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                                    lineNumber: 206,
+                                                                    lineNumber: 262,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                            lineNumber: 204,
+                                                            lineNumber: 260,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -952,7 +989,7 @@ function EditListing({ params }) {
                                                                     id: "Rent"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                                    lineNumber: 209,
+                                                                    lineNumber: 265,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$label$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Label"], {
@@ -960,25 +997,25 @@ function EditListing({ params }) {
                                                                     children: "Rent"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                                    lineNumber: 210,
+                                                                    lineNumber: 266,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                            lineNumber: 208,
+                                                            lineNumber: 264,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                    lineNumber: 200,
+                                                    lineNumber: 256,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                            lineNumber: 198,
+                                            lineNumber: 254,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -987,7 +1024,7 @@ function EditListing({ params }) {
                                                     children: "Property Type"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                    lineNumber: 216,
+                                                    lineNumber: 272,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$select$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Select"], {
@@ -1000,62 +1037,62 @@ function EditListing({ params }) {
                                                                 placeholder: listing?.propertyType ? listing?.propertyType : "Select Property Type"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                                lineNumber: 223,
+                                                                lineNumber: 279,
                                                                 columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                            lineNumber: 222,
+                                                            lineNumber: 278,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$select$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SelectContent"], {
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$select$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SelectItem"], {
-                                                                    value: "Single Family House",
-                                                                    children: "Single Family House"
+                                                                    value: "1 RK",
+                                                                    children: "1 RK"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                                    lineNumber: 226,
+                                                                    lineNumber: 282,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$select$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SelectItem"], {
-                                                                    value: "Town House",
-                                                                    children: "Town House"
+                                                                    value: "1 BHK",
+                                                                    children: "1 BHK"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                                    lineNumber: 229,
+                                                                    lineNumber: 285,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$select$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SelectItem"], {
-                                                                    value: "Condo",
-                                                                    children: "Condo"
+                                                                    value: "2 BHK",
+                                                                    children: "2 BHK"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                                    lineNumber: 232,
+                                                                    lineNumber: 288,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                            lineNumber: 225,
+                                                            lineNumber: 281,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                    lineNumber: 217,
+                                                    lineNumber: 273,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                            lineNumber: 215,
+                                            lineNumber: 271,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                    lineNumber: 197,
+                                    lineNumber: 253,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1067,7 +1104,7 @@ function EditListing({ params }) {
                                                     children: "Bedroom"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                    lineNumber: 243,
+                                                    lineNumber: 299,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
@@ -1076,13 +1113,13 @@ function EditListing({ params }) {
                                                     onChange: handleChange
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                    lineNumber: 244,
+                                                    lineNumber: 300,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                            lineNumber: 242,
+                                            lineNumber: 298,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1091,7 +1128,7 @@ function EditListing({ params }) {
                                                     children: "Bathroom"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                    lineNumber: 249,
+                                                    lineNumber: 305,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
@@ -1100,13 +1137,13 @@ function EditListing({ params }) {
                                                     onChange: handleChange
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                    lineNumber: 250,
+                                                    lineNumber: 306,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                            lineNumber: 248,
+                                            lineNumber: 304,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1115,7 +1152,7 @@ function EditListing({ params }) {
                                                     children: "Built In"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                    lineNumber: 255,
+                                                    lineNumber: 311,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
@@ -1124,19 +1161,19 @@ function EditListing({ params }) {
                                                     onChange: handleChange
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                    lineNumber: 256,
+                                                    lineNumber: 312,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                            lineNumber: 254,
+                                            lineNumber: 310,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                    lineNumber: 241,
+                                    lineNumber: 297,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1148,7 +1185,7 @@ function EditListing({ params }) {
                                                     children: "Parking"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                    lineNumber: 263,
+                                                    lineNumber: 319,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
@@ -1157,13 +1194,13 @@ function EditListing({ params }) {
                                                     onChange: handleChange
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                    lineNumber: 264,
+                                                    lineNumber: 320,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                            lineNumber: 262,
+                                            lineNumber: 318,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1172,7 +1209,7 @@ function EditListing({ params }) {
                                                     children: "Lot Size"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                    lineNumber: 269,
+                                                    lineNumber: 325,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
@@ -1181,13 +1218,13 @@ function EditListing({ params }) {
                                                     onChange: handleChange
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                    lineNumber: 270,
+                                                    lineNumber: 326,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                            lineNumber: 268,
+                                            lineNumber: 324,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1196,7 +1233,7 @@ function EditListing({ params }) {
                                                     children: "Area"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                    lineNumber: 275,
+                                                    lineNumber: 331,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
@@ -1205,19 +1242,19 @@ function EditListing({ params }) {
                                                     onChange: handleChange
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                    lineNumber: 276,
+                                                    lineNumber: 332,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                            lineNumber: 274,
+                                            lineNumber: 330,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                    lineNumber: 261,
+                                    lineNumber: 317,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1229,7 +1266,7 @@ function EditListing({ params }) {
                                                     children: "Price"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                    lineNumber: 283,
+                                                    lineNumber: 339,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
@@ -1238,43 +1275,43 @@ function EditListing({ params }) {
                                                     onChange: handleChange
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                    lineNumber: 284,
+                                                    lineNumber: 340,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                            lineNumber: 282,
+                                            lineNumber: 338,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$label$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Label"], {
-                                                    children: "HOA"
+                                                    children: "Contact Number"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                    lineNumber: 289,
+                                                    lineNumber: 345,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
-                                                    name: "hoa",
-                                                    value: values.hoa || listing?.hoa || "",
+                                                    name: "contactNumber",
+                                                    value: values.contactNumber || listing?.contactNumber || "",
                                                     onChange: handleChange
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                    lineNumber: 290,
+                                                    lineNumber: 346,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                            lineNumber: 288,
+                                            lineNumber: 344,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                    lineNumber: 281,
+                                    lineNumber: 337,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1283,7 +1320,7 @@ function EditListing({ params }) {
                                             children: "Description"
                                         }, void 0, false, {
                                             fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                            lineNumber: 296,
+                                            lineNumber: 352,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$textarea$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Textarea"], {
@@ -1292,13 +1329,13 @@ function EditListing({ params }) {
                                             onChange: handleChange
                                         }, void 0, false, {
                                             fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                            lineNumber: 297,
+                                            lineNumber: 353,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                    lineNumber: 295,
+                                    lineNumber: 351,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1308,20 +1345,20 @@ function EditListing({ params }) {
                                             children: "Upload Property Images"
                                         }, void 0, false, {
                                             fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                            lineNumber: 305,
+                                            lineNumber: 361,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f28$routes$292f$edit$2d$listing$2f$_components$2f$FileUpload$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                             setImages: (value)=>setImages(value)
                                         }, void 0, false, {
                                             fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                            lineNumber: 306,
+                                            lineNumber: 362,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                    lineNumber: 304,
+                                    lineNumber: 360,
                                     columnNumber: 16
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1330,17 +1367,17 @@ function EditListing({ params }) {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
                                             disabled: loading,
                                             variant: "outline",
-                                            className: "bg-purple-600 text-white",
+                                            className: "bg-blue-600 text-white",
                                             children: loading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$loader$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Loader$3e$__["Loader"], {
                                                 className: "animate-spin"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                lineNumber: 311,
+                                                lineNumber: 367,
                                                 columnNumber: 28
                                             }, this) : 'Save   '
                                         }, void 0, false, {
                                             fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                            lineNumber: 310,
+                                            lineNumber: 366,
                                             columnNumber: 18
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$alert$2d$dialog$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AlertDialog"], {
@@ -1350,22 +1387,22 @@ function EditListing({ params }) {
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
                                                         type: "button",
                                                         disabled: loading,
-                                                        className: "bg-purple-600 text-white",
+                                                        className: "bg-blue-600 text-white",
                                                         children: loading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$loader$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Loader$3e$__["Loader"], {
                                                             className: "animate-spin"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                            lineNumber: 318,
+                                                            lineNumber: 374,
                                                             columnNumber: 28
                                                         }, this) : 'Save & Publish '
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                        lineNumber: 317,
+                                                        lineNumber: 373,
                                                         columnNumber: 5
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                    lineNumber: 316,
+                                                    lineNumber: 372,
                                                     columnNumber: 3
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$alert$2d$dialog$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AlertDialogContent"], {
@@ -1376,20 +1413,20 @@ function EditListing({ params }) {
                                                                     children: "Ready to publish?"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                                    lineNumber: 323,
+                                                                    lineNumber: 379,
                                                                     columnNumber: 7
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$alert$2d$dialog$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AlertDialogDescription"], {
                                                                     children: "Do u really wnt to publish the listing"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                                    lineNumber: 324,
+                                                                    lineNumber: 380,
                                                                     columnNumber: 7
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                            lineNumber: 322,
+                                                            lineNumber: 378,
                                                             columnNumber: 5
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$alert$2d$dialog$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AlertDialogFooter"], {
@@ -1398,7 +1435,7 @@ function EditListing({ params }) {
                                                                     children: "Cancel"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                                    lineNumber: 329,
+                                                                    lineNumber: 385,
                                                                     columnNumber: 7
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$alert$2d$dialog$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AlertDialogAction"], {
@@ -1407,58 +1444,58 @@ function EditListing({ params }) {
                                                                         className: "animate-spin"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                                        lineNumber: 331,
+                                                                        lineNumber: 387,
                                                                         columnNumber: 19
                                                                     }, this) : 'continue '
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                                    lineNumber: 330,
+                                                                    lineNumber: 386,
                                                                     columnNumber: 7
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                            lineNumber: 328,
+                                                            lineNumber: 384,
                                                             columnNumber: 5
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                                    lineNumber: 321,
+                                                    lineNumber: 377,
                                                     columnNumber: 3
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                            lineNumber: 315,
+                                            lineNumber: 371,
                                             columnNumber: 16
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                                    lineNumber: 308,
+                                    lineNumber: 364,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                            lineNumber: 191,
+                            lineNumber: 247,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                        lineNumber: 190,
+                        lineNumber: 246,
                         columnNumber: 9
                     }, this)
             }, void 0, false, {
                 fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-                lineNumber: 171,
+                lineNumber: 227,
                 columnNumber: 5
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/(routes)/edit-listing/[id]/page.jsx",
-        lineNumber: 166,
+        lineNumber: 222,
         columnNumber: 3
     }, this);
 }

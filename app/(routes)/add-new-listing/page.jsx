@@ -8,8 +8,10 @@ import React, { useState } from "react";
 import { toast } from "sonner";
 import dynamic from "next/dynamic";
 import { useRouter } from "next/navigation";
+
+// ✅ FIX: import the CORRECT map component
 const LeafletMap = dynamic(
-  () => import("@/app/_components/LeafletMap"),
+  () => import("@/app/_components/LeafletMapSection"),
   { ssr: false }
 );
 
@@ -17,9 +19,9 @@ function AddNewListing() {
   const [selectedAddress, setSelecetedAddress] = useState(null);
   const [coordinates, setCoordinates] = useState(null);
   const { user } = useUser();
-  const router=useRouter();
+  const router = useRouter();
+
   const nextHandler = async () => {
-    // 🔒 HARD VALIDATION (NO LOCATION = NO INSERT)
     if (
       !selectedAddress ||
       !coordinates ||
@@ -47,12 +49,10 @@ function AddNewListing() {
 
     if (data) {
       toast("New Address added for listing");
-      console.log("Inserted:", data);
-      router.replace('/edit-listing/'+data[0].id);
+      router.replace("/edit-listing/" + data[0].id);
     }
 
     if (error) {
-      console.error(error);
       toast("Server side error");
     }
   };
@@ -62,21 +62,19 @@ function AddNewListing() {
       <div className="p-10 flex flex-col gap-5 items-center justify-center">
         <h2 className="font-bold text-2xl">Add New Listing</h2>
 
-        <div className="p-10 rounded-lg border shadow-md flex flex-col gap-5">
+        <div className="p-10 rounded-lg border shadow-md flex flex-col gap-5 w-[500px]">
           <h2 className="text-gray-500">
             Enter Address which you want to list
           </h2>
 
-          {/* Address autocomplete */}
           <FreeAddressSearch
             selectedAddress={(value) => setSelecetedAddress(value)}
             setCoordinates={(value) => setCoordinates(value)}
           />
 
-          {/* Map preview */}
-          <LeafletMap coordinates={coordinates} />
+          {/* ✅ MAP NOW RENDERS */}
+          <LeafletMap coordinates={coordinates} height={500} />
 
-          {/* Next button */}
           <Button
             disabled={
               !selectedAddress ||

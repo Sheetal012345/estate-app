@@ -85,22 +85,22 @@ function FilterSection({setBedCount,setBathCount,setParkingCount,setHomeType}) {
       All
     </SelectItem>
 
-    <SelectItem value="Single Family Home">
-      Single Family Home
+    <SelectItem value="1 RK">
+       1 RK
     </SelectItem>
 
-    <SelectItem value="Town House">
-      Town House
+    <SelectItem value="1 BHK">
+      1 BHK
     </SelectItem>
 
-    <SelectItem value="Condo">
-      Condo
+    <SelectItem value="2 BHK">
+      2 BHK
     </SelectItem>
 
     {/* NEW HOME TYPE ADDED */}
-    <SelectItem value="Apartment">
-      Apartment
-    </SelectItem>
+    {/* <SelectItem value="3 BHK">
+      3 BHK
+    </SelectItem> */}
   </SelectContent>
 </Select>
 </div>

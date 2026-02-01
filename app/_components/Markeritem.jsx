@@ -1,34 +1,55 @@
 "use client";
 
-import { Marker, Popup } from "react-leaflet";
+import dynamic from "next/dynamic";
 import { MapPin } from "lucide-react";
 import L from "leaflet";
 
-// ✅ import marker images locally (THIS FIXES IT)
 import markerIcon from "leaflet/dist/images/marker-icon.png";
 import markerIcon2x from "leaflet/dist/images/marker-icon-2x.png";
 import markerShadow from "leaflet/dist/images/marker-shadow.png";
 
-// ✅ define icon ONCE
-const markerIconFixed = new L.Icon({
-  iconUrl: markerIcon.src,
-  iconRetinaUrl: markerIcon2x.src,
-  shadowUrl: markerShadow.src,
+const Marker = dynamic(() =>
+  import("react-leaflet").then((m) => m.Marker),
+  { ssr: false }
+);
+
+const Popup = dynamic(() =>
+  import("react-leaflet").then((m) => m.Popup),
+  { ssr: false }
+);
+
+// import L from "leaflet";
+
+const markerIconFixed = L.icon({
+  iconUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png",
+  iconRetinaUrl:
+    "https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png",
+  shadowUrl:
+    "https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png",
   iconSize: [25, 41],
-  iconAnchor: [12, 41], // 👈 IMPORTANT (prevents floating)
+  iconAnchor: [12, 41],
   popupAnchor: [1, -34],
   shadowSize: [41, 41],
 });
 
+// const markerIconFixed = L.icon({
+//   iconUrl: markerIcon.src,
+//   iconRetinaUrl: markerIcon2x.src,
+//   shadowUrl: markerShadow.src,
+//   iconSize: [25, 41],
+//   iconAnchor: [12, 41],
+//   popupAnchor: [1, -34],
+//   shadowSize: [41, 41],
+// });
+
 export default function MarkerItem({ item }) {
-  // ⛔ skip listings without coordinates
-  if (!item?.latitude || !item?.longitude) return null;
+  const lat = Number(item?.coordinates?.lat);
+  const lng = Number(item?.coordinates?.lng);
+
+  if (!lat || !lng) return null;
 
   return (
-    <Marker
-      position={[item.latitude, item.longitude]}
-      icon={markerIconFixed}   // ✅ THIS IS THE KEY LINE
-    >
+    <Marker position={[lat, lng]} icon={markerIconFixed}>
       <Popup>
         <div className="text-sm">
           <p className="font-semibold text-blue-600">

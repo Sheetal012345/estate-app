@@ -5,8 +5,8 @@ import { Button } from "@/components/ui/button";
 function AgentDetail({ listingDetail }) {
   return (
     <div className="mt-4 flex flex-col gap-2">
-      {/*
-      <div>
+      
+      {/* <div>
         <Image
           src={listingDetail?.profileImage}
           alt="profileImage"
@@ -29,11 +29,11 @@ function AgentDetail({ listingDetail }) {
           </h2>
 
           {/* Send Message Button */}
-          <Button className="flex gap-2 mt-2  bg-blue-600 hover:bg-blue-700 text-white">
+          {/* <Button className="flex gap-2 mt-2  bg-blue-600 hover:bg-blue-700 text-white">
            
             Send Message
           </Button>
-          
+           */}
         </div>
       )}
     </div>

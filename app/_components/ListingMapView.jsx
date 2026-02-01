@@ -23,14 +23,26 @@ export default function ListingMapView({ type }) {
 
   useEffect(() => {
     getLatestListing();
-  }, [type]);
+    console.log(type)
+  }, []);
 
   const getLatestListing = async () => {
-    const { data, error } = await supabase
-      .from("listing")
-      .select(`*, listingImages(url, listing_id)`)
-      .eq("active", true)
-      .order("id", { ascending: false });
+      let query = supabase
+    .from("listing")
+    .select(`*, listingImages(url, listing_id)`)
+    .eq("active", true)
+    .order("id", { ascending: false });
+    // const { data, error } = await supabase
+    //   .from("listing")
+    //   .select(`*, listingImages(url, listing_id)`)
+    //   .eq("active", true)
+    //   // .eq("type",type)
+    //   .order("id", { ascending: false });
+       if (type !== null && type !== undefined) {
+    query = query.eq("type", type);
+  }
+  const { data, error } = await query;
+
 
     if (data) setListing(data);
     if (error) toast("Server side error");
@@ -46,6 +58,7 @@ export default function ListingMapView({ type }) {
       .gte("bedroom", bedCount)
       .gte("bathroom", bathCount)
       .gte("parking", parkingCount)
+      
       .ilike("address", `%${searchTerm}%`)
       .order("id", { ascending: false });
 
@@ -72,13 +85,15 @@ export default function ListingMapView({ type }) {
       </div>
 
       {/* RIGHT: MAP */}
-      <div className="h-[calc(100vh-140px)] w-full md:sticky md:top-[140px]">
+      
+      <div className="h-[100vh] w-full md:sticky md:top-[140px]">
         <LeafletMapSection
-          listin={listing}
+          // listin={listing}
           coordinates={coordinates}
           listing={listing}  
         />
       </div>
+      
     </div>
   );
 }

@@ -1,12 +1,29 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { MapContainer, TileLayer, Marker, useMap } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import "@/lib/leafletIconFix";
 import MarkerItem from "./Markeritem";
+let L;
 
-function MapController({ coordinates,listing }) {
+if (typeof window !== "undefined") {
+  L = require("leaflet");
+
+  delete L.Icon.Default.prototype._getIconUrl;
+
+  L.Icon.Default.mergeOptions({
+    iconRetinaUrl:
+      "https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png",
+    iconUrl:
+      "https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png",
+    shadowUrl:
+      "https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png",
+  });
+}
+
+
+function MapController({ coordinates }) {
+  const { useMap } = require("react-leaflet");
   const map = useMap();
 
   useEffect(() => {
@@ -18,18 +35,21 @@ function MapController({ coordinates,listing }) {
   return null;
 }
 
-export default function LeafletMapSection({ coordinates, listing = [] }) {
+export default function LeafletMapSection({ coordinates, listing= [] ,height=800}) {
   const [center] = useState({
     lat: -3.745,
     lng: -38.523,
   });
 
+  // ✅ lazy import to prevent SSR crash
+  const { MapContainer, TileLayer } = require("react-leaflet");
+ console.log(listing)
   return (
     <MapContainer
       center={[center.lat, center.lng]}
       zoom={6}
-      className="w-full h-full"
-      gesturesHandling="greedy"
+      // className="w-full h-[500px]"
+      className={`w-full h-full`}
     >
       <TileLayer
         attribution="&copy; OpenStreetMap contributors"
@@ -38,22 +58,10 @@ export default function LeafletMapSection({ coordinates, listing = [] }) {
 
       <MapController coordinates={coordinates} />
 
-      {listing.map(
-        (item) =>
-          item.coordinates && (
-            <Marker
-              key={item.id}
-              position={[item.coordinates.lat, item.coordinates.lng]}
-            />
-          )
-      )}
-      {listing.map((item,index)=>(
-        <MarkerItem
-        key={index}
-        item={item}
-        
-        />
+      {listing.map((item) => (
+        <MarkerItem key={item.id} item={item} />
       ))}
     </MapContainer>
+
   );
 }

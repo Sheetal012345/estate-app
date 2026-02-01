@@ -194,10 +194,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navi
 ;
 ;
 ;
+// ✅ FIX: import the CORRECT map component
 const LeafletMap = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$shared$2f$lib$2f$app$2d$dynamic$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(async ()=>{}, {
     loadableGenerated: {
         modules: [
-            "[project]/app/_components/LeafletMap.jsx [app-client] (ecmascript, next/dynamic entry)"
+            "[project]/app/_components/LeafletMapSection.jsx [app-client] (ecmascript, next/dynamic entry)"
         ]
     },
     ssr: false
@@ -208,7 +209,6 @@ function AddNewListing() {
     const { user } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$clerk$2f$shared$2f$dist$2f$runtime$2f$react$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useUser"])();
     const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRouter"])();
     const nextHandler = async ()=>{
-        // 🔒 HARD VALIDATION (NO LOCATION = NO INSERT)
         if (!selectedAddress || !coordinates || typeof coordinates.lat !== "number" || typeof coordinates.lng !== "number") {
             (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$sonner$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["toast"])("Please select a location from the map");
             return;
@@ -226,11 +226,9 @@ function AddNewListing() {
         ]).select();
         if (data) {
             (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$sonner$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["toast"])("New Address added for listing");
-            console.log("Inserted:", data);
-            router.replace('/edit-listing/' + data[0].id);
+            router.replace("/edit-listing/" + data[0].id);
         }
         if (error) {
-            console.error(error);
             (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$sonner$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["toast"])("Server side error");
         }
     };
@@ -248,7 +246,7 @@ function AddNewListing() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "p-10 rounded-lg border shadow-md flex flex-col gap-5",
+                    className: "p-10 rounded-lg border shadow-md flex flex-col gap-5 w-[500px]",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                             className: "text-gray-500",
@@ -263,14 +261,15 @@ function AddNewListing() {
                             setCoordinates: (value)=>setCoordinates(value)
                         }, void 0, false, {
                             fileName: "[project]/app/(routes)/add-new-listing/page.jsx",
-                            lineNumber: 71,
+                            lineNumber: 70,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(LeafletMap, {
-                            coordinates: coordinates
+                            coordinates: coordinates,
+                            height: 500
                         }, void 0, false, {
                             fileName: "[project]/app/(routes)/add-new-listing/page.jsx",
-                            lineNumber: 77,
+                            lineNumber: 76,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -279,7 +278,7 @@ function AddNewListing() {
                             children: "Next"
                         }, void 0, false, {
                             fileName: "[project]/app/(routes)/add-new-listing/page.jsx",
-                            lineNumber: 80,
+                            lineNumber: 78,
                             columnNumber: 11
                         }, this)
                     ]
