@@ -39,12 +39,29 @@ function Header() {
           {navItems.map((item) => (
             <Link key={item.href} href={item.href}>
               <li
+  className={`relative font-medium text-sm cursor-pointer
+    transition-colors duration-300
+    ${path === item.href ? "text-primary" : "text-gray-700"}
+    hover:text-primary
+  `}
+>
+  {item.label}
+
+  {/* underline highlight */}
+  <span
+    className={`absolute left-0 -bottom-1 h-[2px] bg-primary transition-all duration-300
+      ${path === item.href ? "w-full" : "w-0"}
+      group-hover:w-full
+    `}
+  />
+</li>
+              {/* <li
                 className={`font-medium text-sm cursor-pointer hover:text-primary ${
                   path === item.href ? "text-primary" : ""
                 }`}
               >
                 {item.label}
-              </li>
+              </li> */}
             </Link>
           ))}
         </ul>
@@ -83,7 +100,7 @@ function Header() {
     <DropdownMenuItem>
       <Link href={'/user'}>Profile</Link>
       </DropdownMenuItem>
-    <DropdownMenuItem>My Listing</DropdownMenuItem>
+    {/* <DropdownMenuItem>My Listing</DropdownMenuItem> */}
     <DropdownMenuItem><SignOutButton>Logout</SignOutButton></DropdownMenuItem>
     
   </DropdownMenuContent>

@@ -83,9 +83,9 @@ function UserListing() {
                   </Button>
                 </Link>
 
-                <Button size='sm' variant='destructive' className='w-full'>
+                {/* <Button size='sm' variant='destructive' className='w-full'>
                   <Trash />
-                </Button>
+                </Button> */}
               </div>
             </div>
           </div>

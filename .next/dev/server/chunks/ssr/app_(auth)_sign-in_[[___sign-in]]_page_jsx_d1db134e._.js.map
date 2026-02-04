@@ -2,5 +2,5 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/hp/Desktop/project1/estate-app/app/%28auth%29/sign-in/%5B%5B...sign-in%5D%5D/page.jsx"],"sourcesContent":["\"use client\";\r\n\r\nimport { SignIn } from \"@clerk/nextjs\";\r\n\r\nexport default function Page() {\r\n  return <SignIn />;\r\n}\r\n "],"names":[],"mappings":";;;;;AAEA;AAFA;;;AAIe,SAAS;IACtB,qBAAO,8OAAC,gNAAM;;;;;AAChB"}}]
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/hp/Desktop/project1/estate-app/app/%28auth%29/sign-in/%5B%5B...sign-in%5D%5D/page.jsx"],"sourcesContent":["\"use client\";\r\n\r\nimport { SignIn } from \"@clerk/nextjs\";\r\n\r\n export default function Page()\r\n {\r\n  return (\r\n    <div className=\"min-h-screen flex items-center justify-center\">\r\n      <SignIn />\r\n    </div>\r\n  );\r\n}\r\n//  {\r\n//   return <SignIn />;\r\n// }\r\n "],"names":[],"mappings":";;;;;AAEA;AAFA;;;AAIgB,SAAS;IAEvB,qBACE,8OAAC;QAAI,WAAU;kBACb,cAAA,8OAAC,gNAAM;;;;;;;;;;AAGb,EACA,KAAK;CACL,uBAAuB;CACvB,IAAI"}}]
 }

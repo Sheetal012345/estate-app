@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import "leaflet/dist/leaflet.css";
 import "@/lib/leafletIconFix";
+import { Marker } from "react-leaflet";
 import MarkerItem from "./Markeritem";
 let L;
 
@@ -45,6 +46,7 @@ export default function LeafletMapSection({ coordinates, listing= [] ,height=800
   const { MapContainer, TileLayer } = require("react-leaflet");
  console.log(listing)
   return (
+    <div style={{ height }} className="w-full rounded-md overflow-hidden">
     <MapContainer
       center={[center.lat, center.lng]}
       zoom={6}
@@ -57,11 +59,16 @@ export default function LeafletMapSection({ coordinates, listing= [] ,height=800
       />
 
       <MapController coordinates={coordinates} />
+     {coordinates?.lat && coordinates?.lng && (
+  <Marker position={[coordinates.lat, coordinates.lng]} />
+)}
+    
 
       {listing.map((item) => (
         <MarkerItem key={item.id} item={item} />
       ))}
     </MapContainer>
+    </div>
 
   );
 }

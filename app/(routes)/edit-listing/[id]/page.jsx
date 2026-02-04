@@ -54,6 +54,13 @@ export default function EditListing({ params }) {
   const [listing, setListing] = useState(null);
   const [images, setImages] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [safety, setSafety] = useState({
+    cctv: false,
+    lighting: false,
+    gated: false,
+    police: false,
+    neighborhood: false,
+  });
 
   useEffect(() => {
     console.log("Editing Listing ID:", listingId);
@@ -81,7 +88,24 @@ export default function EditListing({ params }) {
     setListing(data);
     console.log(listing)
   };
+  // 🛡️ Safety checkbox handler
+const handleSafetyChange = (e) => {
+  setSafety({
+    ...safety,
+    [e.target.name]: e.target.checked,
+  });
+};
 
+// 🧮 Calculate safety score (0–100)
+const calculateSafetyScore = () => {
+  let score = 0;
+
+  Object.values(safety).forEach((value) => {
+    if (value) score += 20;
+  });
+
+  return score;
+};
 
 
 // ✅ FINAL FIXED SUBMIT HANDLER
@@ -156,6 +180,7 @@ if (Number(price) <= 0) {
     price: values.price !== "" ? Number(values.price) : null,
     contactNumber: values.contactNumber !== "" ? Number(values.contactNumber) : null,
     description: values.description || null,
+    safety_score: calculateSafetyScore(),
     active: true,
   };
 
@@ -357,6 +382,72 @@ return (
                   
                 />
               </div>
+              {/* 🛡️ Safety Score */}
+<div className="mt-6">
+  <Label className="font-semibold text-base mb-2 block">
+    Safety Features
+  </Label>
+
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
+    <label className="flex items-center gap-2">
+      <input
+        type="checkbox"
+        name="cctv"
+        onChange={handleSafetyChange}
+      />
+      CCTV Nearby
+    </label>
+
+    <label className="flex items-center gap-2">
+      <input
+        type="checkbox"
+        name="lighting"
+        onChange={handleSafetyChange}
+      />
+      Well-lit Area
+    </label>
+
+    <label className="flex items-center gap-2">
+      <input
+        type="checkbox"
+        name="gated"
+        onChange={handleSafetyChange}
+      />
+      Gated Society
+    </label>
+
+    <label className="flex items-center gap-2">
+      <input
+        type="checkbox"
+        name="police"
+        onChange={handleSafetyChange}
+      />
+      Near Police Station
+    </label>
+
+    <label className="flex items-center gap-2">
+      <input
+        type="checkbox"
+        name="neighborhood"
+        onChange={handleSafetyChange}
+      />
+      Good Neighborhood
+    </label>
+  </div>
+
+  <div className="mt-3">
+    <p className="text-sm text-gray-600">
+      Safety Score: <b>{calculateSafetyScore()}%</b>
+    </p>
+
+    <div className="w-full bg-gray-200 rounded-full h-2 mt-1">
+      <div
+        className="bg-green-600 h-2 rounded-full"
+        style={{ width: `${calculateSafetyScore()}%` }}
+      />
+    </div>
+  </div>
+</div>
                <div>
                 <h2 className='font-lg text-gray-500 my-2'>Upload Property Images</h2>
                 <FileUpload setImages={(value)=>setImages(value)}/>

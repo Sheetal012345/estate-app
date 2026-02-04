@@ -34,14 +34,18 @@
 
 @layer theme {
   :root, :host {
+    --color-green-50: #f0fdf4;
+    --color-green-600: #00a544;
     --color-blue-600: #155dfc;
     --color-blue-700: #1447e6;
     --color-purple-100: #f3e8ff;
     --color-purple-500: #ac4bff;
     --color-slate-200: #e2e8f0;
     --color-gray-100: #f3f4f6;
+    --color-gray-200: #e5e7eb;
     --color-gray-500: #6a7282;
     --color-gray-600: #4a5565;
+    --color-gray-700: #364153;
     --color-black: #000;
     --color-white: #fff;
     --spacing: .25rem;
@@ -75,14 +79,18 @@
 
   @supports (color: lab(0% 0 0)) {
     :root, :host {
+      --color-green-50: lab(98.1563% -5.60117 2.75913);
+      --color-green-600: lab(59.0978% -58.6621 41.2579);
       --color-blue-600: lab(44.0605% 29.0279 -86.0352);
       --color-blue-700: lab(36.9089% 35.0961 -85.6872);
       --color-purple-100: lab(93.3333% 6.9744 -9.83434);
       --color-purple-500: lab(52.0183% 66.11 -78.2316);
       --color-slate-200: lab(91.7353% -.998765 -4.76968);
       --color-gray-100: lab(96.1596% -.082314 -1.13575);
+      --color-gray-200: lab(91.6229% -.159085 -2.26791);
       --color-gray-500: lab(47.7841% -.393212 -10.0268);
       --color-gray-600: lab(35.6337% -1.58697 -10.8425);
+      --color-gray-700: lab(27.1134% -.956401 -12.3224);
     }
   }
 }
@@ -400,12 +408,20 @@
     right: calc(var(--spacing) * 2);
   }
 
+  .-bottom-1 {
+    bottom: calc(var(--spacing) * -1);
+  }
+
   .-bottom-12 {
     bottom: calc(var(--spacing) * -12);
   }
 
   .-left-12 {
     left: calc(var(--spacing) * -12);
+  }
+
+  .left-0 {
+    left: calc(var(--spacing) * 0);
   }
 
   .left-1\/2 {
@@ -514,6 +530,10 @@
     margin-top: calc(var(--spacing) * 5);
   }
 
+  .mt-6 {
+    margin-top: calc(var(--spacing) * 6);
+  }
+
   .mt-8 {
     margin-top: calc(var(--spacing) * 8);
   }
@@ -610,6 +630,10 @@
     height: calc(var(--spacing) * 64);
   }
 
+  .h-\[2px\] {
+    height: 2px;
+  }
+
   .h-\[100px\] {
     height: 100px;
   }
@@ -660,6 +684,14 @@
 
   .min-h-\[60px\] {
     min-height: 60px;
+  }
+
+  .min-h-screen {
+    min-height: 100vh;
+  }
+
+  .w-0 {
+    width: calc(var(--spacing) * 0);
   }
 
   .w-2 {
@@ -926,6 +958,18 @@
     background-color: var(--destructive);
   }
 
+  .bg-gray-200 {
+    background-color: var(--color-gray-200);
+  }
+
+  .bg-green-50 {
+    background-color: var(--color-green-50);
+  }
+
+  .bg-green-600 {
+    background-color: var(--color-green-600);
+  }
+
   .bg-muted {
     background-color: var(--muted);
   }
@@ -986,8 +1030,8 @@
     padding: calc(var(--spacing) * 3);
   }
 
-  .p-5 {
-    padding: calc(var(--spacing) * 5);
+  .p-4 {
+    padding: calc(var(--spacing) * 4);
   }
 
   .p-6 {
@@ -1158,6 +1202,10 @@
     color: var(--color-gray-600);
   }
 
+  .text-gray-700 {
+    color: var(--color-gray-700);
+  }
+
   .text-muted-foreground {
     color: var(--muted-foreground);
   }
@@ -1184,6 +1232,10 @@
 
   .text-white {
     color: var(--color-white);
+  }
+
+  .underline {
+    text-decoration-line: underline;
   }
 
   .underline-offset-4 {
@@ -1232,6 +1284,12 @@
     outline-width: 1px;
   }
 
+  .transition-all {
+    transition-property: all;
+    transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
+    transition-duration: var(--tw-duration, var(--default-transition-duration));
+  }
+
   .transition-colors {
     transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to;
     transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
@@ -1241,6 +1299,11 @@
   .duration-200 {
     --tw-duration: .2s;
     transition-duration: .2s;
+  }
+
+  .duration-300 {
+    --tw-duration: .3s;
+    transition-duration: .3s;
   }
 
   .ease-out {
@@ -1262,8 +1325,18 @@
     animation-duration: .2s;
   }
 
+  .duration-300 {
+    animation-duration: .3s;
+  }
+
   .ease-out {
     animation-timing-function: cubic-bezier(0, 0, .2, 1);
+  }
+
+  @media (hover: hover) {
+    .group-hover\:w-full:is(:where(.group):hover *) {
+      width: 100%;
+    }
   }
 
   .peer-disabled\:cursor-not-allowed:is(:where(.peer):disabled ~ *) {

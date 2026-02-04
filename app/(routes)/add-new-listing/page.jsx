@@ -22,6 +22,11 @@ function AddNewListing() {
   const router = useRouter();
 
   const nextHandler = async () => {
+    if (!user) {
+    toast("Please login to post a listing");
+    router.push("/sign-in");
+    return; // ⛔ STOP execution
+  }
     if (
       !selectedAddress ||
       !coordinates ||
@@ -72,8 +77,13 @@ function AddNewListing() {
             setCoordinates={(value) => setCoordinates(value)}
           />
 
-          {/* ✅ MAP NOW RENDERS */}
-          <LeafletMap coordinates={coordinates} height={500} />
+          {/* ✅ MAP NOW RENDERS
+          <LeafletMap coordinates={coordinates} height={500} /> */}
+          <LeafletMap
+  coordinates={coordinates}
+  setCoordinates={setCoordinates}
+  height={500}
+/>
 
           <Button
             disabled={

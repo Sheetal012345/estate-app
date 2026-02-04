@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 function AgentDetail({ listingDetail }) {
   return (
-    <div className="mt-4 flex flex-col gap-2">
+    <div className="mt-4 flex flex-col items-center gap-2">
       
       {/* <div>
         <Image
@@ -18,7 +18,19 @@ function AgentDetail({ listingDetail }) {
       */}
 
       {listingDetail && (
-        <div className="flex gap-5 items-center justify-between p-5 rounded-lg shadow-md border my-6">
+        <div
+  className="
+    w-full
+    p-6
+    rounded-lg
+    shadow-md
+    border
+    flex
+    items-center
+    justify-center
+    my-6
+  "
+>
            
           <h2 className="text-lg font-bold">
             {listingDetail.fullName}

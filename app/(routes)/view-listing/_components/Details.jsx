@@ -85,6 +85,34 @@ function Details({ listingDetail }) {
           </p>
         </div>
 
+        {/* 🛡️ Safety Score */}
+{listingDetail?.safety_score !== undefined && (
+  <div className="mt-6 p-4 border rounded-lg bg-green-50">
+    <h2 className="font-bold text-2xl mb-2">Safety Score</h2>
+
+    <p className="text-gray-700 mb-2">
+      This property has a safety score of
+      <span className="font-bold"> {listingDetail.safety_score}%</span>
+    </p>
+
+    {/* Progress Bar */}
+    <div className="w-full bg-gray-200 rounded-full h-3 mb-2">
+      <div
+        className="h-3 rounded-full bg-green-600"
+        style={{ width: `${listingDetail.safety_score}%` }}
+      />
+    </div>
+
+    {/* Label */}
+    <p className="font-medium">
+      {listingDetail.safety_score >= 80 && "🟢 Very Safe Area"}
+      {listingDetail.safety_score >= 50 &&
+        listingDetail.safety_score < 80 &&
+        "🟡 Moderately Safe Area"}
+      {listingDetail.safety_score < 50 && "🔴 Less Safe Area"}
+    </p>
+  </div>
+)}
         {/* Map Section (placeholder) */}
         {/* <div className="mt-4">
           <h2 className="font-bold text-2xl"> Find on Map</h2>
