@@ -32,7 +32,7 @@ function Header() {
       {/* Left Section */}
       <div className="flex items-center gap-10">
         <Link href="/">
-          <img src="/st.jpeg" alt="logo" width={90} height={40} className="object-contain"/>
+          <img src="/estate.png" alt="logo" width={90} height={40} className="object-contain"/>
         </Link>
 
         <ul className="hidden md:flex gap-10">
