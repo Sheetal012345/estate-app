@@ -19,6 +19,13 @@ function FilterSection({setBedCount,setBathCount,setParkingCount,setHomeType}) {
           <SelectValue placeholder="Bed" />
         </SelectTrigger>
         <SelectContent>
+        {/* 👇 NEW: 0 Bed for 1 RK */}
+    <SelectItem value="0">
+      <h2 className="flex items-center gap-2">
+        <BedDouble className="h-5 w-5 text-purple-500" /> 0 (1 RK)
+      </h2>
+    </SelectItem>
+        
           <SelectItem value="1">
             <h2 className="flex items-center gap-2">
               <BedDouble className="h-5 w-5 text-purple-500" /> 1+
@@ -61,7 +68,13 @@ function FilterSection({setBedCount,setBathCount,setParkingCount,setHomeType}) {
         <SelectTrigger className="w-[180px]">
           <SelectValue placeholder="Parking" />
         </SelectTrigger>
-        <SelectContent>
+          <SelectContent>
+    {/* 👇 NEW: 0 Bed for 1 RK */}
+    <SelectItem value="0">
+      <h2 className="flex items-center gap-2">
+        <Car className="h-5 w-5 text-purple-500" /> 0 
+      </h2>
+    </SelectItem>
           <SelectItem value="1">
             <h2 className="flex items-center gap-2">
               <Car className="h-5 w-5 text-purple-500" /> 1+

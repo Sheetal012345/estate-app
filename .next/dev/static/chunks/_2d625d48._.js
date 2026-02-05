@@ -390,6 +390,30 @@ function FilterSection({ setBedCount, setBathCount, setParkingCount, setHomeType
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$select$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SelectContent"], {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$select$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SelectItem"], {
+                                value: "0",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "flex items-center gap-2",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$bed$2d$double$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__BedDouble$3e$__["BedDouble"], {
+                                            className: "h-5 w-5 text-purple-500"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/_components/FilterSection.jsx",
+                                            lineNumber: 25,
+                                            columnNumber: 9
+                                        }, this),
+                                        " 0 (1 RK)"
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/app/_components/FilterSection.jsx",
+                                    lineNumber: 24,
+                                    columnNumber: 7
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/app/_components/FilterSection.jsx",
+                                lineNumber: 23,
+                                columnNumber: 5
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$select$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SelectItem"], {
                                 value: "1",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                     className: "flex items-center gap-2",
@@ -398,19 +422,19 @@ function FilterSection({ setBedCount, setBathCount, setParkingCount, setHomeType
                                             className: "h-5 w-5 text-purple-500"
                                         }, void 0, false, {
                                             fileName: "[project]/app/_components/FilterSection.jsx",
-                                            lineNumber: 24,
+                                            lineNumber: 31,
                                             columnNumber: 15
                                         }, this),
                                         " 1+"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/_components/FilterSection.jsx",
-                                    lineNumber: 23,
+                                    lineNumber: 30,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/_components/FilterSection.jsx",
-                                lineNumber: 22,
+                                lineNumber: 29,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$select$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -422,19 +446,19 @@ function FilterSection({ setBedCount, setBathCount, setParkingCount, setHomeType
                                             className: "h-5 w-5 text-purple-500"
                                         }, void 0, false, {
                                             fileName: "[project]/app/_components/FilterSection.jsx",
-                                            lineNumber: 29,
+                                            lineNumber: 36,
                                             columnNumber: 15
                                         }, this),
                                         " 2+"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/_components/FilterSection.jsx",
-                                    lineNumber: 28,
+                                    lineNumber: 35,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/_components/FilterSection.jsx",
-                                lineNumber: 27,
+                                lineNumber: 34,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$select$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -446,19 +470,19 @@ function FilterSection({ setBedCount, setBathCount, setParkingCount, setHomeType
                                             className: "h-5 w-5 text-purple-500"
                                         }, void 0, false, {
                                             fileName: "[project]/app/_components/FilterSection.jsx",
-                                            lineNumber: 34,
+                                            lineNumber: 41,
                                             columnNumber: 15
                                         }, this),
                                         " 3+"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/_components/FilterSection.jsx",
-                                    lineNumber: 33,
+                                    lineNumber: 40,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/_components/FilterSection.jsx",
-                                lineNumber: 32,
+                                lineNumber: 39,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -482,12 +506,12 @@ function FilterSection({ setBedCount, setBathCount, setParkingCount, setHomeType
                             placeholder: "Bath"
                         }, void 0, false, {
                             fileName: "[project]/app/_components/FilterSection.jsx",
-                            lineNumber: 43,
+                            lineNumber: 50,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/_components/FilterSection.jsx",
-                        lineNumber: 42,
+                        lineNumber: 49,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$select$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SelectContent"], {
@@ -501,19 +525,19 @@ function FilterSection({ setBedCount, setBathCount, setParkingCount, setHomeType
                                             className: "h-5 w-5 text-purple-500"
                                         }, void 0, false, {
                                             fileName: "[project]/app/_components/FilterSection.jsx",
-                                            lineNumber: 48,
+                                            lineNumber: 55,
                                             columnNumber: 15
                                         }, this),
                                         " 1+"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/_components/FilterSection.jsx",
-                                    lineNumber: 47,
+                                    lineNumber: 54,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/_components/FilterSection.jsx",
-                                lineNumber: 46,
+                                lineNumber: 53,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$select$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -525,31 +549,31 @@ function FilterSection({ setBedCount, setBathCount, setParkingCount, setHomeType
                                             className: "h-5 w-5 text-purple-500"
                                         }, void 0, false, {
                                             fileName: "[project]/app/_components/FilterSection.jsx",
-                                            lineNumber: 53,
+                                            lineNumber: 60,
                                             columnNumber: 15
                                         }, this),
                                         " 2+"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/_components/FilterSection.jsx",
-                                    lineNumber: 52,
+                                    lineNumber: 59,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/_components/FilterSection.jsx",
-                                lineNumber: 51,
+                                lineNumber: 58,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/_components/FilterSection.jsx",
-                        lineNumber: 45,
+                        lineNumber: 52,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/_components/FilterSection.jsx",
-                lineNumber: 41,
+                lineNumber: 48,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$select$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Select"], {
@@ -561,16 +585,40 @@ function FilterSection({ setBedCount, setBathCount, setParkingCount, setHomeType
                             placeholder: "Parking"
                         }, void 0, false, {
                             fileName: "[project]/app/_components/FilterSection.jsx",
-                            lineNumber: 62,
+                            lineNumber: 69,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/_components/FilterSection.jsx",
-                        lineNumber: 61,
+                        lineNumber: 68,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$select$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SelectContent"], {
                         children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$select$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SelectItem"], {
+                                value: "0",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "flex items-center gap-2",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$car$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Car$3e$__["Car"], {
+                                            className: "h-5 w-5 text-purple-500"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/_components/FilterSection.jsx",
+                                            lineNumber: 75,
+                                            columnNumber: 9
+                                        }, this),
+                                        " 0"
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/app/_components/FilterSection.jsx",
+                                    lineNumber: 74,
+                                    columnNumber: 7
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/app/_components/FilterSection.jsx",
+                                lineNumber: 73,
+                                columnNumber: 5
+                            }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$select$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SelectItem"], {
                                 value: "1",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -580,19 +628,19 @@ function FilterSection({ setBedCount, setBathCount, setParkingCount, setHomeType
                                             className: "h-5 w-5 text-purple-500"
                                         }, void 0, false, {
                                             fileName: "[project]/app/_components/FilterSection.jsx",
-                                            lineNumber: 67,
+                                            lineNumber: 80,
                                             columnNumber: 15
                                         }, this),
                                         " 1+"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/_components/FilterSection.jsx",
-                                    lineNumber: 66,
+                                    lineNumber: 79,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/_components/FilterSection.jsx",
-                                lineNumber: 65,
+                                lineNumber: 78,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$select$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -604,31 +652,31 @@ function FilterSection({ setBedCount, setBathCount, setParkingCount, setHomeType
                                             className: "h-5 w-5 text-purple-500"
                                         }, void 0, false, {
                                             fileName: "[project]/app/_components/FilterSection.jsx",
-                                            lineNumber: 72,
+                                            lineNumber: 85,
                                             columnNumber: 15
                                         }, this),
                                         " 2+"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/_components/FilterSection.jsx",
-                                    lineNumber: 71,
+                                    lineNumber: 84,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/_components/FilterSection.jsx",
-                                lineNumber: 70,
+                                lineNumber: 83,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/_components/FilterSection.jsx",
-                        lineNumber: 64,
-                        columnNumber: 9
+                        lineNumber: 71,
+                        columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/_components/FilterSection.jsx",
-                lineNumber: 60,
+                lineNumber: 67,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$select$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Select"], {
@@ -640,12 +688,12 @@ function FilterSection({ setBedCount, setBathCount, setParkingCount, setHomeType
                             placeholder: "Home Type"
                         }, void 0, false, {
                             fileName: "[project]/app/_components/FilterSection.jsx",
-                            lineNumber: 80,
+                            lineNumber: 93,
                             columnNumber: 5
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/_components/FilterSection.jsx",
-                        lineNumber: 79,
+                        lineNumber: 92,
                         columnNumber: 3
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$select$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SelectContent"], {
@@ -655,7 +703,7 @@ function FilterSection({ setBedCount, setBathCount, setParkingCount, setHomeType
                                 children: "All"
                             }, void 0, false, {
                                 fileName: "[project]/app/_components/FilterSection.jsx",
-                                lineNumber: 84,
+                                lineNumber: 97,
                                 columnNumber: 5
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$select$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -663,7 +711,7 @@ function FilterSection({ setBedCount, setBathCount, setParkingCount, setHomeType
                                 children: "1 RK"
                             }, void 0, false, {
                                 fileName: "[project]/app/_components/FilterSection.jsx",
-                                lineNumber: 88,
+                                lineNumber: 101,
                                 columnNumber: 5
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$select$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -671,7 +719,7 @@ function FilterSection({ setBedCount, setBathCount, setParkingCount, setHomeType
                                 children: "1 BHK"
                             }, void 0, false, {
                                 fileName: "[project]/app/_components/FilterSection.jsx",
-                                lineNumber: 92,
+                                lineNumber: 105,
                                 columnNumber: 5
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$select$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -679,19 +727,19 @@ function FilterSection({ setBedCount, setBathCount, setParkingCount, setHomeType
                                 children: "2 BHK"
                             }, void 0, false, {
                                 fileName: "[project]/app/_components/FilterSection.jsx",
-                                lineNumber: 96,
+                                lineNumber: 109,
                                 columnNumber: 5
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/_components/FilterSection.jsx",
-                        lineNumber: 83,
+                        lineNumber: 96,
                         columnNumber: 3
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/_components/FilterSection.jsx",
-                lineNumber: 78,
+                lineNumber: 91,
                 columnNumber: 7
             }, this)
         ]
