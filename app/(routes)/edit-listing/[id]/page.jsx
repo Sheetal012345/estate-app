@@ -106,6 +106,18 @@ const calculateSafetyScore = () => {
 
   return score;
 };
+// 💰 Price preview formatter (UI only)
+const formatPricePreview = (price) => {
+  if (!price || isNaN(price)) return "";
+
+  if (price >= 10000000) {
+    return `₹${(price / 10000000).toFixed(2)} Cr`;
+  } else if (price >= 100000) {
+    return `₹${(price / 100000).toFixed(1)} Lakh`;
+  }
+
+  return `₹${Number(price).toLocaleString("en-IN")}`;
+};
 
 
 // ✅ FINAL FIXED SUBMIT HANDLER
@@ -364,6 +376,12 @@ return (
                   <Label>Price</Label>
                   <Input name="price" value={values.price||listing?.price||"" }onChange={handleChange}
                    />
+                   {/* 👇 Live formatted preview */}
+  {values.price && (
+    <p className="text-sm text-gray-500 mt-1">
+      {formatPricePreview(values.price)}
+    </p>
+  )}
                 </div>
 
                 <div>

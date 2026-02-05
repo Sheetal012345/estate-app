@@ -389,7 +389,7 @@ function FilterSection({ setBedCount, setBathCount, setParkingCount, setHomeType
         className: "flex flex-wrap items-center gap-3 px-3 py-2",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$select$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Select"], {
-                onOpenChange: setBedCount,
+                onValueChange: setBedCount,
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$select$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectTrigger"], {
                         className: "w-[180px]",
@@ -492,7 +492,7 @@ function FilterSection({ setBedCount, setBathCount, setParkingCount, setHomeType
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$select$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Select"], {
-                onOpenChange: setBathCount,
+                onValueChange: setBathCount,
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$select$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectTrigger"], {
                         className: "w-[180px]",
@@ -571,7 +571,7 @@ function FilterSection({ setBedCount, setBathCount, setParkingCount, setHomeType
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$select$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Select"], {
-                onOpenChange: setParkingCount,
+                onValueChange: setParkingCount,
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$select$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectTrigger"], {
                         className: "w-[180px]",
@@ -650,7 +650,7 @@ function FilterSection({ setBedCount, setBathCount, setParkingCount, setHomeType
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$select$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Select"], {
-                onOpenChange: setHomeType,
+                onValueChange: setHomeType,
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$select$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectTrigger"], {
                         className: "w-[180px]",
@@ -749,6 +749,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$_components$2f$Filter
 ;
 ;
 ;
+// 💰 Indian price formatter (UI only)
+const formatPrice = (price)=>{
+    if (!price || isNaN(price)) return "";
+    if (price >= 10000000) {
+        return `₹${(price / 10000000).toFixed(2)} Cr`;
+    } else if (price >= 100000) {
+        return `₹${(price / 100000).toFixed(1)} Lakh`;
+    }
+    return `₹${Number(price).toLocaleString("en-IN")}`;
+};
 function Listing({ listing = [], handleSearchClick, searchedAddress, setBathCount, setBedCount, setParkingCount, setHomeType, setCoordinates }) {
     const [address, setAddress] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])();
     console.log(listing);
@@ -765,7 +775,7 @@ function Listing({ listing = [], handleSearchClick, searchedAddress, setBathCoun
                         setCoordinates: setCoordinates
                     }, void 0, false, {
                         fileName: "[project]/app/_components/Listing.jsx",
-                        lineNumber: 35,
+                        lineNumber: 47,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -776,20 +786,20 @@ function Listing({ listing = [], handleSearchClick, searchedAddress, setBathCoun
                                 className: "h-4 w-4"
                             }, void 0, false, {
                                 fileName: "[project]/app/_components/Listing.jsx",
-                                lineNumber: 47,
+                                lineNumber: 59,
                                 columnNumber: 3
                             }, this),
                             "Search"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/_components/Listing.jsx",
-                        lineNumber: 43,
+                        lineNumber: 55,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/_components/Listing.jsx",
-                lineNumber: 34,
+                lineNumber: 46,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$_components$2f$FilterSection$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -799,7 +809,7 @@ function Listing({ listing = [], handleSearchClick, searchedAddress, setBathCoun
                 setHomeType: setHomeType
             }, void 0, false, {
                 fileName: "[project]/app/_components/Listing.jsx",
-                lineNumber: 58,
+                lineNumber: 70,
                 columnNumber: 7
             }, this),
             address && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -814,7 +824,7 @@ function Listing({ listing = [], handleSearchClick, searchedAddress, setBathCoun
                             children: listing?.length
                         }, void 0, false, {
                             fileName: "[project]/app/_components/Listing.jsx",
-                            lineNumber: 70,
+                            lineNumber: 82,
                             columnNumber: 13
                         }, this),
                         " ",
@@ -827,18 +837,18 @@ function Listing({ listing = [], handleSearchClick, searchedAddress, setBathCoun
                             children: address?.label || address
                         }, void 0, false, {
                             fileName: "[project]/app/_components/Listing.jsx",
-                            lineNumber: 74,
+                            lineNumber: 86,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/_components/Listing.jsx",
-                    lineNumber: 68,
+                    lineNumber: 80,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/_components/Listing.jsx",
-                lineNumber: 67,
+                lineNumber: 79,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -854,12 +864,12 @@ function Listing({ listing = [], handleSearchClick, searchedAddress, setBathCoun
                                     className: "rounded-lg h-[180px] w-full object-cover"
                                 }, void 0, false, {
                                     fileName: "[project]/app/_components/Listing.jsx",
-                                    lineNumber: 92,
+                                    lineNumber: 104,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/_components/Listing.jsx",
-                                lineNumber: 90,
+                                lineNumber: 102,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -867,13 +877,10 @@ function Listing({ listing = [], handleSearchClick, searchedAddress, setBathCoun
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         className: "font-bold text-xl text-blue-600",
-                                        children: [
-                                            "₹",
-                                            item.price
-                                        ]
-                                    }, void 0, true, {
+                                        children: formatPrice(item.price)
+                                    }, void 0, false, {
                                         fileName: "[project]/app/_components/Listing.jsx",
-                                        lineNumber: 98,
+                                        lineNumber: 110,
                                         columnNumber: 19
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -883,21 +890,21 @@ function Listing({ listing = [], handleSearchClick, searchedAddress, setBathCoun
                                                 className: "h-4 w-4"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/_components/Listing.jsx",
-                                                lineNumber: 103,
+                                                lineNumber: 118,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 children: item.address
                                             }, void 0, false, {
                                                 fileName: "[project]/app/_components/Listing.jsx",
-                                                lineNumber: 104,
+                                                lineNumber: 119,
                                                 columnNumber: 21
                                             }, this),
                                             item.type
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/_components/Listing.jsx",
-                                        lineNumber: 102,
+                                        lineNumber: 117,
                                         columnNumber: 19
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -910,14 +917,14 @@ function Listing({ listing = [], handleSearchClick, searchedAddress, setBathCoun
                                                         className: "h-4 w-4"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/_components/Listing.jsx",
-                                                        lineNumber: 109,
+                                                        lineNumber: 124,
                                                         columnNumber: 23
                                                     }, this),
                                                     item.bedroom
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/_components/Listing.jsx",
-                                                lineNumber: 108,
+                                                lineNumber: 123,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -927,14 +934,14 @@ function Listing({ listing = [], handleSearchClick, searchedAddress, setBathCoun
                                                         className: "h-4 w-4"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/_components/Listing.jsx",
-                                                        lineNumber: 114,
+                                                        lineNumber: 129,
                                                         columnNumber: 23
                                                     }, this),
                                                     item.bathroom
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/_components/Listing.jsx",
-                                                lineNumber: 113,
+                                                lineNumber: 128,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -944,32 +951,32 @@ function Listing({ listing = [], handleSearchClick, searchedAddress, setBathCoun
                                                         className: "h-4 w-4"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/_components/Listing.jsx",
-                                                        lineNumber: 119,
+                                                        lineNumber: 134,
                                                         columnNumber: 23
                                                     }, this),
                                                     item.area
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/_components/Listing.jsx",
-                                                lineNumber: 118,
+                                                lineNumber: 133,
                                                 columnNumber: 21
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/_components/Listing.jsx",
-                                        lineNumber: 107,
+                                        lineNumber: 122,
                                         columnNumber: 19
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/_components/Listing.jsx",
-                                lineNumber: 97,
+                                lineNumber: 109,
                                 columnNumber: 17
                             }, this)
                         ]
                     }, item.id, true, {
                         fileName: "[project]/app/_components/Listing.jsx",
-                        lineNumber: 85,
+                        lineNumber: 97,
                         columnNumber: 13
                     }, this)) : [
                     1,
@@ -984,18 +991,18 @@ function Listing({ listing = [], handleSearchClick, searchedAddress, setBathCoun
                         className: "h-[230px] w-full bg-slate-200 animate-pulse rounded-lg"
                     }, index, false, {
                         fileName: "[project]/app/_components/Listing.jsx",
-                        lineNumber: 129,
+                        lineNumber: 144,
                         columnNumber: 13
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/app/_components/Listing.jsx",
-                lineNumber: 82,
+                lineNumber: 94,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/_components/Listing.jsx",
-        lineNumber: 31,
+        lineNumber: 43,
         columnNumber: 5
     }, this);
 }

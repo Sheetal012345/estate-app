@@ -14,7 +14,7 @@ function FilterSection({setBedCount,setBathCount,setParkingCount,setHomeType}) {
     
 <div className="flex flex-wrap items-center gap-3 px-3 py-2">
       {/* BED */}
-      <Select onOpenChange={setBedCount}>
+      <Select onValueChange={setBedCount}>
         <SelectTrigger className="w-[180px]">
           <SelectValue placeholder="Bed" />
         </SelectTrigger>
@@ -38,7 +38,7 @@ function FilterSection({setBedCount,setBathCount,setParkingCount,setHomeType}) {
       </Select>
 
       {/* BATH */}
-      <Select onOpenChange={setBathCount}>
+      <Select onValueChange={setBathCount}>
         <SelectTrigger className="w-[180px]">
           <SelectValue placeholder="Bath" />
         </SelectTrigger>
@@ -57,7 +57,7 @@ function FilterSection({setBedCount,setBathCount,setParkingCount,setHomeType}) {
       </Select>
 
       {/* PARKING */}
-      <Select onOpenChange={setParkingCount}>
+      <Select onValueChange={setParkingCount}>
         <SelectTrigger className="w-[180px]">
           <SelectValue placeholder="Parking" />
         </SelectTrigger>
@@ -75,7 +75,7 @@ function FilterSection({setBedCount,setBathCount,setParkingCount,setHomeType}) {
         </SelectContent>
       </Select>
    {/*hometype*/}
-      <Select onOpenChange={setHomeType}>
+      <Select onValueChange={setHomeType}>
   <SelectTrigger className="w-[180px]">
     <SelectValue placeholder="Home Type" />
   </SelectTrigger>

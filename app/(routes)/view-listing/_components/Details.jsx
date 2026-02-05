@@ -14,6 +14,18 @@ import LeafletMapSection from "@/app/_components/LeafletMapSection";
 import LeafletMapClient from "@/app/_components/LeafletMapClient";
 import AgentDetail from "./AgentDetail";
 
+// 💰 Indian price formatter (UI only)
+const formatPrice = (price) => {
+  if (!price || isNaN(price)) return "";
+
+  if (price >= 10000000) {
+    return `₹${(price / 10000000).toFixed(2)} Cr`;
+  } else if (price >= 100000) {
+    return `₹${(price / 100000).toFixed(1)} Lakh`;
+  }
+
+  return `₹${Number(price).toLocaleString("en-IN")}`;
+};
 function Details({ listingDetail }) {
   return (
     listingDetail && (
@@ -22,8 +34,10 @@ function Details({ listingDetail }) {
         <div className="flex justify-between items-center">
           <div>
             <h2 className="font-bold text-3xl">
+  {formatPrice(listingDetail?.price)}
+</h2>{/* <h2 className="font-bold text-3xl">
               ₹ {listingDetail?.price}
-            </h2>
+            </h2> */}
 
             <h2 className="text-gray-500 text-lg flex gap-2 items-center">
               <MapPin />

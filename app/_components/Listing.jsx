@@ -14,6 +14,18 @@ import {
 import FreeAddressSearch from "./FreeAddressSearch";
 import { Button } from "@/components/ui/button";
 import FilterSection from "./FilterSection";
+// 💰 Indian price formatter (UI only)
+const formatPrice = (price) => {
+  if (!price || isNaN(price)) return "";
+
+  if (price >= 10000000) {
+    return `₹${(price / 10000000).toFixed(2)} Cr`;
+  } else if (price >= 100000) {
+    return `₹${(price / 100000).toFixed(1)} Lakh`;
+  }
+
+  return `₹${Number(price).toLocaleString("en-IN")}`;
+};
 
 function Listing({
   listing = [],
@@ -96,8 +108,11 @@ function Listing({
                 </div>
                 <div className="flex mt-2 flex-col gap-2">
                   <h2 className="font-bold text-xl text-blue-600">
+  {formatPrice(item.price)}
+</h2>
+                  {/* <h2 className="font-bold text-xl text-blue-600">
                     ₹{item.price}
-                  </h2>
+                  </h2> */}
 
                   <div className="flex gap-2 items-center text-sm text-gray-500">
                     <MapPin className="h-4 w-4" />

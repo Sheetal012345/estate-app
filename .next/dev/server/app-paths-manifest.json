@@ -1,3 +1,9 @@
 {
+  "/(auth)/sign-in/[[...sign-in]]/page": "app/(auth)/sign-in/[[...sign-in]]/page.js",
+  "/(routes)/add-new-listing/page": "app/(routes)/add-new-listing/page.js",
+  "/(routes)/edit-listing/[id]/page": "app/(routes)/edit-listing/[id]/page.js",
+  "/(routes)/rent/page": "app/(routes)/rent/page.js",
+  "/(routes)/user/[[...rest]]/page": "app/(routes)/user/[[...rest]]/page.js",
+  "/(routes)/view-listing/[id]/page": "app/(routes)/view-listing/[id]/page.js",
   "/page": "app/page.js"
 }
