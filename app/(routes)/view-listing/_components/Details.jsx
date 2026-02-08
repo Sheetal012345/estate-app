@@ -13,6 +13,12 @@ import { Button } from "@/components/ui/button";
 import LeafletMapSection from "@/app/_components/LeafletMapSection";
 import LeafletMapClient from "@/app/_components/LeafletMapClient";
 import AgentDetail from "./AgentDetail";
+// helper to remove emojis & symbols
+const cleanText = (text) =>
+  text
+    .replace(/[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}]/gu, "")
+    .replace(/[•✓✔]/g, "")
+    .trim();
 
 // 💰 Indian price formatter (UI only)
 const formatPrice = (price) => {
@@ -90,14 +96,70 @@ function Details({ listingDetail }) {
           </div>
         </div>
 
-        {/* What's Special */}
+        {/* What's Special
         <div className="mt-4">
           <h2 className="font-bold text-2xl">What&apos;s Special</h2>
           <p className="text-gray-600">
             {listingDetail?.description}
             gsadiugsbdukcigsidu
           </p>
-        </div>
+        </div> */}
+
+
+
+        {/* What's Special */}
+<div className="mt-6">
+  {/* <h2 className="font-bold text-2xl mb-5">What&apos;s Special</h2> */}
+
+  {(() => {
+    const raw = listingDetail?.description || "";
+
+    const lines = raw
+  .split("\n")
+  .map((l) => cleanText(l))
+  .filter(Boolean);
+
+    const sections = {
+      "Property Features": [],
+      "Nearby Facilities": [],
+      "Additional Amenities": [],
+      "Ideal For": [],
+    };
+
+    let current = null;
+
+    lines.forEach((line) => {
+      const lower = line.toLowerCase();
+      if (lower.includes("property feature")) return (current = "Property Features");
+      if (lower.includes("nearby")) return (current = "Nearby Facilities");
+      if (lower.includes("amenit")) return (current = "Additional Amenities");
+      if (lower.includes("ideal")) return (current = "Ideal For");
+
+      if (current) sections[current].push(line);
+    });
+
+    return Object.entries(sections).map(
+      ([title, items]) =>
+        items.length > 0 && (
+          <div key={title} className="mb-7">
+            <h3 className="font-semibold text-lg mb-2">{title}</h3>
+
+            {/* fluid inline layout */}
+            <div className="flex flex-wrap text-gray-700 leading-relaxed">
+              {items.map((item, index) => (
+                <span key={index} className="mr-2">
+                  {item}
+                  {index < items.length - 1 && (
+                    <span className="mx-2 text-gray-400">•</span>
+                  )}
+                </span>
+              ))}
+            </div>
+          </div>
+        )
+    );
+  })()}
+</div>
 
         {/* 🛡️ Safety Score */}
 {listingDetail?.safety_score !== undefined && (
@@ -135,8 +197,9 @@ function Details({ listingDetail }) {
             listing={[listingDetail]}
           />
         </div> */}
+        {/* contact owner */}
         <div>
-             <h2 className="font-bold text-xl">Contact Agent</h2>
+             <h2 className="font-bold text-xl"></h2>
             <AgentDetail listingDetail={listingDetail}/>
         </div>
       </div>

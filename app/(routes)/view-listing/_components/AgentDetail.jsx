@@ -1,53 +1,22 @@
 import React from "react";
-import Image from "next/image";
-import { Button } from "@/components/ui/button";
 
 function AgentDetail({ listingDetail }) {
+  if (!listingDetail?.createdBy) return null;
+
   return (
-    <div className="mt-4 flex flex-col items-center gap-2">
-      
-      {/* <div>
-        <Image
-          src={listingDetail?.profileImage}
-          alt="profileImage"
-          width={60}
-          height={60}
-          className="rounded-full"
-        />
-      </div>
-      */}
+    <div className="p-3 border rounded-lg bg-green-50 flex items-center gap-4">
+      <h2 className="font-bold text-lg whitespace-nowrap">
+        Contact Owner
+      </h2>
 
-      {listingDetail && (
-        <div
-  className="
-    w-full
-    p-6
-    rounded-lg
-    shadow-md
-    border
-    flex
-    items-center
-    justify-center
-    my-6
-  "
->
-           
-          <h2 className="text-lg font-bold">
-            {listingDetail.fullName}
-          </h2>
+      <span className="text-gray-400">—</span>
 
-          <h2 className="text-gray-500">
-            {listingDetail.createdBy}
-          </h2>
-
-          {/* Send Message Button */}
-          {/* <Button className="flex gap-2 mt-2  bg-blue-600 hover:bg-blue-700 text-white">
-           
-            Send Message
-          </Button>
-           */}
-        </div>
-      )}
+      <a
+        href={`mailto:${listingDetail.createdBy}`}
+        className="text-blue-600 hover:underline font-medium break-all"
+      >
+        {listingDetail.createdBy}
+      </a>
     </div>
   );
 }
